@@ -1,12 +1,12 @@
 <?php
- 
+
 if (isset($_GET['viewmode'])) {
     $viewmode = $_GET['viewmode'];
     setcookie("viewmode", $viewmode, null, "/shozen_tour/");
 } else {
     $viewmode = $_COOKIE['viewmode'];
 }
- 
+
 if ($viewmode = "pc") {
     $regex_ua_spn = "(iPhone|iPod|Android.*Mobile|BlackBerry)";
     if (preg_match($regex_ua_spn, $_SERVER['HTTP_USER_AGENT']) == 0) {
@@ -33,6 +33,16 @@ if ($viewmode = "pc") {
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 </head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-75283835-1');
+</script>
 
 <body>
 
@@ -137,7 +147,7 @@ if ($viewmode = "pc") {
 <div class="txt">
 <h3>
 お参りだけじゃない！<br>
-様々な感動！ 
+様々な感動！
 </h3>
 <p>
 お参り以外にも、旅行の醍醐味とも言えるお食事やお宿でもお客様に喜んでいただけるものを提供します。
@@ -150,7 +160,7 @@ if ($viewmode = "pc") {
 <div class="txt">
 <h3>
 ゆったり広々キレイな<br>
-バスで快適な旅を！ 
+バスで快適な旅を！
 </h3>
 <p>
 ゆったりとした快適なバスで乗務員も安全運転を徹底。乗り物酔いが心配な方も安心してお乗りいただけます。
@@ -163,7 +173,7 @@ if ($viewmode = "pc") {
 <div class="txt">
 <h3>
 お参りツアーを通して<br>
-新たな絆を発見 
+新たな絆を発見
 </h3>
 <p>
 初めは見ず知らずの人だったのが様々な体験を通して笑い合いかけがえのない親友に！
@@ -183,7 +193,7 @@ if ($viewmode = "pc") {
 <div class="pic"><img src="images/top/cont_top_oogata_laxuary.png" alt=""/></div>
 <div class="txt">
 <h3>
-大型ラグジュアリー（正シート36席） 
+大型ラグジュアリー（正シート36席）
 </h3>
 <p>
 ラグジュアリーワイドシートと共にお客様に安心をお届けします！
@@ -219,7 +229,7 @@ if ($viewmode = "pc") {
 <div class="pic"><img src="images/top/kogata_24.png" alt=""/></div>
 <div class="txt">
 <h3>
-小型24（24人乗り） 
+小型24（24人乗り）
 </h3>
 </div>
 </div>
@@ -300,17 +310,6 @@ FAX：078-995-2178
 
 </div>
 <!-- /footer -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52118257-1', 'shozen.com');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>

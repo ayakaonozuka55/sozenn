@@ -1,12 +1,12 @@
 <?php
- 
+
 if (isset($_GET['viewmode'])) {
     $viewmode = $_GET['viewmode'];
     setcookie("viewmode", $viewmode, null, "/shozen_tour/introductionbus/");
 } else {
     $viewmode = $_COOKIE['viewmode'];
 }
- 
+
 if ($viewmode != "pc") {
     $regex_ua_spn = "(iPhone|iPod|Android.*Mobile|BlackBerry)";
     if (preg_match($regex_ua_spn, $_SERVER['HTTP_USER_AGENT']) != 0) {
@@ -29,12 +29,20 @@ if ($viewmode != "pc") {
 <script type="text/javascript" src="../js/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript" src="../js/scrollsmoothly.js"></script>
 <script type="text/javascript" src="../js/lib/common.js"></script>
-<!--[if IE 6]>  
+<!--[if IE 6]>
 <script type="text/javascript" src="../js/DD_belatedPNG_0.0.8a-min.js"></script>
 <script type="text/javascript" src="../js/lib/ie6.js"></script>
 <![endif]-->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-75283835-1');
+</script>
 
 </head>
 
@@ -350,17 +358,6 @@ if ($viewmode != "pc") {
 <div id="footer">
 <?php include "../inc/footer.inc";?>
 </div><!-- /footer -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52118257-1', 'shozen.com');
-  ga('send', 'pageview');
-
-</script>
 
 
 
