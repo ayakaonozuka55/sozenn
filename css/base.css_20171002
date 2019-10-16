@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+intial set
+------------------------------------------------------------------ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	outline:0px;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+body{
+	color:#333333;
+	font-size:14px;
+	font-family:'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	text-align:center;
+	line-height:normal;
+}
+
+body#top{
+	background:url(../images/top/main_visual_bg.jpg) 0 59px repeat-x;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+	vertical-align:bottom;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+.clear{
+	clear: both;
+}
+
+strong{
+	font-weight:bold;
+}
+
+/* ------------------------------------------------------------------
+link
+------------------------------------------------------------------ */
+a{color:#333333; text-decoration:underline;}
+a:link{color:#333333; text-decoration:underline;}
+a:active{color:#333333; text-decoration:none;}
+a:hover{color:#333333; text-decoration:none;}
+
+/* ------------------------------------------------------------------
+clearfix
+------------------------------------------------------------------ */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* ------------------------------------------------------------------
+base
+------------------------------------------------------------------ */
+div#wrap{
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+}
+
+div#container{
+	width:100%;
+	overflow:hidden;
+}
+
+div#container div#main{
+	width:730px;
+	float:left;
+}
+
+div#container div#side{
+	width:230px;
+	float:right;
+}
+
+div#container #globalmain{
+	width:960px;
+}
+
+/* ------------------------------------------------------------------
+header
+------------------------------------------------------------------ */
+/*div#header{
+	position:relative;
+	width:980px;
+	height:105px;
+	overflow:hidden;
+}
+
+div#header p#logo{
+	position:absolute;
+	top:28px;
+	left:0;
+	width:340px;
+	height:55px;
+}
+
+div#header h1{
+	position:absolute;
+	top:28px;
+	left:53px;
+	font-size:12px;
+	font-weight:normal;
+}
+
+div#header ul{
+	position:absolute;
+	right:0px;
+	top:10px;
+	width:500px;
+	overflow:hidden;
+	font-size:12px;
+}
+
+div#header ul li{
+	float:right;
+	margin:0 0 0 10px;
+}
+
+div#header ul li a{
+	background:url(../images/common/h_nav_icon.png) 0 50% no-repeat;
+	padding:0 0 0 12px;
+}
+
+div#header div#tel{
+	position:absolute;
+	right:210px;
+	top:40px;
+	width:237px;
+	height:45px;
+	overflow:hidden;
+}
+
+div#header div#btn{
+	position:absolute;
+	right:0px;
+	top:40px;
+	width:200px;
+	height:45px;
+	overflow:hidden;
+}
+
+body#top ul#gNav{
+	margin:0 0 15px 0;
+}
+
+ul#gNav{
+	width:100%;
+	overflow:hidden;
+	margin:0;
+}
+
+ul#gNav li{
+	float:left;
+}
+*/
+
+/* ------------------------------------------------------------------
+footer
+------------------------------------------------------------------ */
+div#footer{
+	clear:both;
+	width:100%;
+	background:url(../images/common/f_bg.gif) 0 20px repeat-x;
+	padding:20px 0 0 0;
+}
+
+div#footer div#fInner{
+	position:relative;
+	width:960px;
+	height:180px;
+	margin:0 auto;
+	text-align:left;
+}
+
+div#footer p#fNav{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:11px;
+	line-height:34px;
+}
+
+div#footer div#fAd{
+	position:absolute;
+	left:0;
+	top:42px;
+	line-height:1.4;
+}
+
+div#footer div#fAd h5{
+	font-size:18px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+}
+
+div#footer div#fAd h5 a{
+	text-decoration:none;
+}
+
+div#footer div#fAd p{
+	float:left;
+	margin:0 20px 0 0;
+}
+
+div#footer address{
+	position:absolute;
+	bottom:10px;
+	right:0;
+	font-size:10px;
+	font-style:normal;
+	font-family:Verdana, Geneva, sans-serif;
+}

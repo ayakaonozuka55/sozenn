@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+form
+------------------------------------------------------------------ */
+p.thanks{
+	border:1px solid #CCC;
+	padding:60px 0;
+	text-align:center;
+	line-height:1.8;
+}
+
+/* ------------------------------------------------------------------
+form
+------------------------------------------------------------------ */
+div#form{
+	border:10px solid #f3f3f3;
+	padding:40px;
+	margin:0 0 40px 0;
+	font-size:16px;
+}
+
+div#form h2{
+	font-size:30px;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+div#form p.lead{
+	text-align:center;
+}
+
+div#form label {
+	cursor: pointer;
+	margin-bottom: 1px;
+}
+
+label.label_true {
+	text-decoration: none;
+}
+
+label.label_false {
+	background-image: none;
+}
+
+div#mailfrom_hidden_object {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+div#mailfrom_hidden_object input {
+	margin: 10px;
+}
+
+div#mfp_closed {
+	display: none;
+}
+
+div.mfp_disp {
+	display: none;
+}
+
+div.mfp_err {
+	clear:both;
+	text-align: left;
+	margin: 3px 0px 0px 0px;
+	color: #DD0000;
+	font-size: 12px;
+	display: none;
+}
+
+div.mfp_err:before{
+	content:"※ ";
+}
+
+input.mfp {
+	padding: 2px;
+	vertical-align:middle;
+}
+
+textarea.mfp {
+	padding: 5px;
+}
+
+div.mfp_buttons {
+	text-align:center;
+}
+
+div.mfp_buttons input{
+	margin:0 5px;
+	cursor:pointer;
+	font-family:'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+}
+
+div.mfp_buttons input{
+	border:none;
+	display:inline-block;
+	padding:20px 80px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	text-decoration:none;
+	font-size:24px;
+	line-height:1;
+}
+
+div.mfp_buttons input#button_mfp_goconfirm{
+	background:#333;
+	color:#FFF;
+}
+
+div.mfp_buttons input#button_mfp_gosend{
+	background:#333;
+	color:#FFF;
+}
+
+div.mfp_buttons input#button_mfp_gocancel{
+	background:#CCC;
+	color:#FFF;
+}
+
+div.mfp_buttons input:hover{
+	opacity:0.75;
+	filter: alpha(opacity=75);
+	-ms-filter: "alpha( opacity=75 )";
+}
+
+table.mailform,
+div#mfp_phase_confirm table {
+	width:100%;
+	border-collapse: separate;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-spacing: 0;
+	background:#FFFFFF;
+	margin:0 0 40px 0;
+}
+
+table.mailform tr th,
+div#mfp_phase_confirm table th {
+	padding:15px;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	text-align:left;
+	background:#F3F3F3;
+	vertical-align:top;
+	text-align:left;
+	width:300px;
+	box-sizing:border-box;
+}
+
+table.mailform tr th span,
+div#mfp_phase_confirm table th span{
+	display:inline-block;
+	margin:0 10px 0 0;
+	font-size:12px;
+	padding:1px 10px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+span.must{
+	background:#DD0000;
+	color:#FFF;
+}
+
+span.option{
+	background:#CCC;
+	color:#FFF;
+}
+
+table.mailform tr td,
+div#mfp_phase_confirm table td {
+	padding:15px;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	text-align:left;
+	vertical-align:top;
+	box-sizing:border-box;
+}
+
+table.mailform tr td ul,
+table.mailform tr td ul li,
+table.mailform tr td ol,
+table.mailform tr td ol li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.mailform tr td ul,
+table.mailform tr td ol{
+	overflow:hidden;
+}
+
+table.mailform tr td ul li{
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+table.mailform tr td ul li:last-child{
+	margin:0;
+}
+
+table.mailform tr td ol li{
+	margin:0 0 5px 0;
+}
+
+table.mailform tr td ol li:last-child{
+	margin:0;
+}
+
+table.mailform tr td ol li:last-child{
+	margin:0;
+}
+
+table.mailform tr td p,table.mailform tr td div,table.mailform tr td span {
+	clear: both;
+}
+
+div#mfp_phase_confirm {
+	display: none;
+}
+
+div#mfp_phase_confirm div.att{
+	background:#57a9d5;
+	color:#FFF;
+	text-align:center;
+	padding:20px;
+	font-size:18px;
+	margin:0 0 20px 0;
+}
+
+/*//////////////////////////////////////////////////*/
+
+div#twex {
+	margin: 0px;
+	overflow: hidden;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+	background-color: #000000;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	opacity: 0.60;
+}
+
+img#loading_proccess_image {
+	position: absolute;
+	z-index: 1000;
+}

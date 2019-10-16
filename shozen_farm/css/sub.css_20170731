@@ -1,0 +1,945 @@
+@charset "utf-8";
+/* ------------------------------------------------------------------
+ ショーゼンファームが選ばれる理由 
+------------------------------------------------------------------ */
+.wrapper_widesub {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100% !important;
+    overflow: hidden;
+}
+.pankuzu {
+	max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+	color:#000;
+    position: relative;
+    margin-top: 55px;
+    font-size: 1.3rem;
+}
+.pankuzu a{
+	color:#DB8E35;
+}
+.pankuzu a:hover{
+	color:#DB8E35;
+	text-decoration: underline;
+}
+.subttl_area {
+    width: 100%;
+    margin-top: 10px;
+    border-top: 90px solid #f2f2f2;
+    position: relative;
+}
+.subttl {
+	max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+    position: relative;
+    margin-top: 10px;
+    padding: 0;
+    top: -5%;
+    height: 30px;
+}
+.subttl_txt {
+    background: url(http://www.shozen.com/shozen_farm/img/pc/sub/fukidashi_ttl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+    width: 215px;
+    height: 115px;
+    margin-top: -7%;
+    margin-left: 2%;
+    padding: 2% 0;
+    line-height: 2.5rem;
+    text-align: center;
+	color:#DB8E35;
+    font-weight: bold;
+}
+.ttl_oneline{
+    padding-top: 3%;
+}
+.eraberu_area01{
+	padding-bottom:40px;
+	border-bottom:1px solid #ddd;
+}
+.eraberu_area01 .right_area{
+	float:right;
+	width:53%;
+}
+.eraberu_area01 .right_area img{
+	width:100%;
+}
+.eraberu_area01 .left_area{
+	float:left;
+	width:47%;
+	padding-top: 3%;
+	padding-right: 1%;
+}
+.eraberu_ttl{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.eraberu_txt{
+    line-height: 3rem;
+}
+.line_label{
+	position: relative;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+	line-height: 3.5rem;
+}
+.line_label::after{
+    content: '';
+    width: 35px;
+    height: 2px;
+    background-color: #DB8E35;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.eraberu_area02{
+	padding:40px 0;
+	border-bottom:1px solid #ddd;
+}
+.eraberu_area02 .right_area{
+	float:right;
+	width:47%;
+    padding-left: 4%;
+}
+.eraberu_area02 .left_area{
+	float:left;
+	width:53%;
+}
+.eraberu_area02 .left_area img{
+	width:100%;
+}
+.eraberu_area03{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.eraberu_area03 .right_area{
+	float:right;
+	width:53%;
+}
+.eraberu_area03 .right_area img{
+	width:100%;
+}
+.eraberu_area03 .left_area{
+	float:left;
+	width:47%;
+	padding-top: 3%;
+	padding-right: 1%;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	.pankuzu {
+		max-width: 1200px;
+	    width: 96%;
+	    margin: 0 auto;
+	    background-color: #fff;
+		color:#000;
+	    position: relative;
+	    margin-top: 55px;
+	    font-size: 1.3rem;
+	}
+	.subttl_txt {
+	    background: url(http://www.shozen.com/shozen_farm/img/pc/sub/fukidashi_ttl.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    vertical-align: middle;
+	    position: absolute;
+	    z-index: 2;
+	    width: 205px;
+	    height: 110px;
+	    margin-top: -90px;
+	    margin-left: 2%;
+	    padding: 2% 0;
+	    line-height: 2.5rem;
+	    text-align: center;
+		color:#DB8E35;
+	}
+	.ttl_oneline{
+	    padding-top: 35px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.subttl_area {
+	    width: 100%;
+	    margin-top: 10px;
+	    border-top: 85px solid #DB8E35;
+	    position: relative;
+	}
+	.subttl {
+		max-width: 1200px;
+	    width: 100%;
+	    margin: 0 auto;
+	    color: #000;
+	    position: relative;
+	    margin-top: 10px;
+	    padding: 0;
+	    top: -5%;
+	    height: 0;
+	}
+	.pankuzu {
+		max-width: 1200px;
+	    width: 96%;
+	    margin: 0 auto;
+	    background-color: #fff;
+		color:#000;
+	    position: relative;
+	    margin-top: 8px;
+	    font-size: 1.3rem;
+	}
+	.subttl_txt {
+	    background: none;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    vertical-align: middle;
+	    position: absolute;
+	    z-index: 2;
+	    width: 95%;
+	    /* border: 2px solid #DB8E35; */
+	    border-radius: 10px;
+	    height: 65px;
+	    margin-top: -85px;
+	    margin-left: 2%;
+	    padding: 2% 0 0%;
+	    line-height: 2.5rem;
+	    text-align: center;
+	    color: #fff;
+	    font-size: 14px;
+	    /* background-color: #fff; */
+	}
+	.eraberu_area01{
+		position: relative;
+	}
+	.eraberu_area01 .right_area{
+	    width: 100%;
+	    position: absolute;
+	}
+	.eraberu_area01 .right_area img{
+		width:100%;
+	}
+	.eraberu_area01 .left_area{
+		width: 100%;
+    	padding-top: 60vw;
+	}
+	.eraberu_ttl{
+	    font-size: 2rem;
+	    font-weight: bold;
+	}
+	.eraberu_txt{
+	    line-height: 3rem;
+	}
+	.line_label{
+		position: relative;
+	    padding-bottom: 20px;
+	    padding-left: 50px;
+	    margin-bottom: 0px;
+		line-height: 3.5rem;
+	}
+	.line_label::after{
+	    content: '';
+	    width: 35px;
+	    height: 2px;
+	    background-color: #DB8E35;
+	    position: absolute;
+	    left: 0;
+	    top: 15px;
+	}
+	.eraberu_area02{
+		padding:40px 0;
+		border-bottom:1px solid #ddd;
+	}
+	.eraberu_area02 .right_area{
+		float:right;
+		width:100%;
+		padding-left: 0;
+	    padding-top: 20px;
+	}
+	.eraberu_area02 .left_area{
+		float:left;
+		width:100%;
+	}
+	.eraberu_area02 .left_area img{
+		width:100%;
+	}
+	.eraberu_area03{
+		position: relative;
+	}
+	.eraberu_area03 .right_area{
+	    width: 100%;
+	    position: absolute;
+	}
+	.eraberu_area03 .right_area img{
+		width:100%;
+	}
+	.eraberu_area03 .left_area{
+		width: 100%;
+    	padding-top: 57vw;
+	}
+	.ttl_oneline{
+	    padding-top: 20px;
+	}
+
+}
+
+/* ------------------------------------------------------------------
+ 加工場紹介
+------------------------------------------------------------------ */
+.kakou_area01{
+	padding-bottom:40px;
+	border-bottom:1px solid #DB8E35;
+}
+.kakou_area01 .right_area{
+	float:right;
+	width:50%;
+	padding-top: 4%;
+}
+.kakou_area01 .right_area img{
+	width:100%;
+}
+.kakou_area01 .left_area{
+	float:left;
+	width:50%;
+	padding-top: 4%;
+	padding-right: 1%;
+}
+.kakou_ttl{
+    font-size: 2.8rem;
+    font-weight: bold;
+	color:#DB8E35;
+}
+.kakou_ttl span{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #aaa;
+    margin-right: 20px;
+}
+.kakou_txt01{
+    line-height: 3rem;
+}
+.kakou_txt02{
+    line-height: 3rem;
+}
+.line_label02{
+	position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+	line-height: 3.5rem;
+}
+.line_label02::after{
+    content: '';
+    width: 58px;
+    height: 1px;
+    background-color: #DB8E35;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+.kakou_area01 .area{
+	padding-top: 4%;
+	width:100%;
+}
+.kakou_area01 .area4pic{
+	width:100%;
+}
+.kakou_area01 .area4pic li{
+	display: table-cell;
+	width:25%;
+	padding-left:2%;
+}
+.kakou_area01 .area4pic li:first-child{
+	display: table-cell;
+	width:23%;
+	padding:0%;
+}
+.kakou_area01 .area4pic li img{
+	width:100%;
+}
+.kakou_area01 .area4pic li p{
+	text-align:center;
+    color: #DB8E35;
+    display: grid;
+	font-weight:bold;
+    padding: 15px 0;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	.kakou_area01{
+		padding: 10px 0;
+		border-bottom:none;
+	}
+	.kakou_area01 .right_area{
+		float:right;
+		width:100%;
+		padding-top: 4%;
+	}
+	.kakou_area01 .left_area{
+		float:left;
+		width:100%;
+		padding-top: 4%;
+		padding-right: 1%;
+	}
+	.kakou_area01 .area4pic li{
+	    display: table-cell;
+	    width: 50%;
+	    padding-left: 2%;
+	    float: left;
+	}
+	.kakou_area01 .area4pic li:first-child{
+	    display: table-cell;
+	    width: 50%;
+	    float: left;
+	    padding-left: 2%;
+	}
+	.kakou_ttl{
+	    font-size: 2rem;
+	    font-weight: bold;
+		color:#DB8E35;
+	}
+	.line_label02{
+		position: relative;
+	    padding-bottom: 0;
+	    margin-bottom: 30px;
+		line-height: 3.5rem;
+	}
+	.kakou_txt01{
+	    line-height: 2rem;
+	}
+	.kakou_txt02{
+	    line-height: 2rem;
+	    min-height: 130px;
+	}
+	.kakou_area01 .area4pic li p{
+		text-align:center;
+	    color: #DB8E35;
+	    display: grid;
+		font-weight:bold;
+		padding:10px 0;
+	}
+}
+/* ------------------------------------------------------------------
+ 会社概要
+------------------------------------------------------------------ */
+.corp_area01{
+	padding-bottom:40px;
+	margin-bottom:30px;
+	border-bottom:1px solid #ddd;
+}
+.corp_ttl{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.line_label03{
+	position: relative;
+    padding-bottom: 20px;
+    padding-left: 50px;
+	line-height: 3.5rem;
+}
+.line_label03::after{
+    content: '';
+    width: 35px;
+    height: 2px;
+    background-color: #DB8E35;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.corp_area01 table.gaiyou{
+    padding-left: 50px;
+}
+.corp_area01 table.gaiyou th{
+    padding: 12px 0;
+    text-align: left;
+    color: #DB8E35;
+	width: 80px;
+}
+.corp_area01 table.rinen{
+    padding-left: 50px;
+}
+.corp_area01 table.rinen th{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #aaa;
+    padding: 30px 0;
+}
+.corp_area01 table.rinen td{
+    vertical-align: middle;
+    padding-left: 25px;
+    line-height: 2.5rem;
+}
+.line_label04{
+	position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+	line-height: 3.5rem;
+}
+.line_label04::after{
+    content: '';
+    width: 58px;
+    height: 1px;
+    background-color: #DB8E35;
+    position: absolute;
+    left: 0;
+    top: 75px;
+}
+.corp_area01 .Addr{
+    padding:15px 0 0 50px;
+	line-height: 2.5rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.corp_ttl{
+	    font-size: 2rem;
+	    font-weight: bold;
+	}
+	.line_label04{
+		position: relative;
+	    padding-bottom: 0;
+	    margin-bottom: 30px;
+		line-height: 3.5rem;
+	}
+	.line_label04::after{
+	    content: '';
+	    width: 40px;
+	    height: 1px;
+	    background-color: #DB8E35;
+	    position: absolute;
+	    left: 0;
+	    top: 75px;
+	}
+	.corp_area01 table.gaiyou{
+	    padding-left: 10px;
+	    line-height: 2rem;
+	}
+	.corp_area01 table.gaiyou th{
+	    padding: 5px 0;
+	    text-align: left;
+	    color: #DB8E35;
+		width: 80px;
+	}
+	.corp_area01 table.gaiyou td{
+	    padding-left: 10px;
+	}
+	.corp_area01 table.rinen{
+	    padding-left: 10px;
+	}
+	.corp_area01 table.rinen th{
+	    font-size: 3rem;
+	    font-weight: 500;
+	    color: #aaa;
+	    padding: 30px 0;
+	}
+	.corp_area01 table.rinen td{
+	    vertical-align: middle;
+	    padding:10px 0 10px 25px;
+	    line-height: 2.5rem;
+	}
+	.corp_area01 .Addr{
+	    padding:10px 0 0 10px;
+	}
+}
+/* ------------------------------------------------------------------
+ 製品紹介
+------------------------------------------------------------------ */
+.seihin01{
+	margin-bottom:30px;
+}
+.seihin01 p{
+	text-align:center;
+	color:#DB8E35;
+	display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.seihin01 .pageinlink{
+	width: 100%;
+    max-width: 1000px;
+}
+.seihin01 a.link01{
+}
+.seihin01 a.link02{
+	margin-left:1%;
+}
+.seihin01 ul{
+    padding-top: 20px;
+    width: 100%;
+	font-size: 0;
+}
+.seihin01 li.li01{
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    padding: 15px 0;
+    background-color: #DB8E35;
+	border:1px solid #DB8E35;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.8rem;
+}
+.seihin01 li.li02{
+    display: inline-block;
+    width: 24%;
+    vertical-align: middle;
+    padding: 15px 0;
+    background-color: #DB8E35;
+	border:1px solid #DB8E35;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.8rem;
+}
+.seihin01 li:hover{
+    background-color: #DB5901;
+	border:1px solid #DB8E35;
+    color: #fff;
+}
+.seihin01 li img{
+    width: 20px;
+    vertical-align: bottom;
+}
+.seihin02{
+	padding-bottom:40px;
+	margin-bottom:30px;
+    background-color: #FAEEE0;
+    border-radius: 8px;
+	padding: 30px;
+}
+.seihin_area01{
+	padding-bottom:40px;
+	margin-bottom:45px;
+	border-bottom:1px solid #E7B47B;
+}
+.seihin_area01:last-child{
+	padding-bottom:0;
+	margin-bottom:30px;
+	border:none;
+}
+.seihin02 .picarea{
+	width:49%;
+	float:left;
+}
+.seihin02 .picarea img{
+	width:100%;
+}
+.seihin02 .txtarea{
+	width:49%;
+	float:right;
+}
+.seihin02 .txtarea .ttl{
+    text-align: center;
+	width:100%;
+    background-color: #E7B47B;
+	color:#fff;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+.seihin02 .txtarea .jiseki{
+	width:49%;
+	float:left;
+    background-color: #fff;
+}
+.seihin02 .txtarea .jiseki p{
+	width:100%;
+    background-color: #DB8E35;
+	color:#fff;
+    padding: 10px 0;
+}
+.seihin02 .txtarea .jiseki .txt{
+    background-color: #fff;
+	padding:10px;
+	line-height: 25px;
+    height: 196px;
+}
+.seihin02 .txtarea .youto{
+	width:49%;
+	float:right;
+    background-color: #fff;
+}
+.seihin02 .txtarea .youto p{
+	width:100%;
+    background-color: #DB5901;
+	color:#fff;
+    padding: 10px 0;
+}
+.seihin02 .txtarea .youto .txt{
+    background-color: #fff;
+	padding:10px;
+	line-height: 25px;
+    height: 196px;
+}
+div#tamanegi{
+    padding-top: 125px;
+    margin-top: -125px;
+}
+div#ninniku{
+    padding-top: 125px;
+    margin-top: -125px;
+}
+div#hourensou{
+    padding-top: 125px;
+    margin-top: -125px;
+}
+div#tomato{
+    padding-top: 125px;
+    margin-top: -125px;
+}
+@media only screen and (max-width: 1000px) {
+	.seihin01 li.li01{
+	    display: inline-block;
+	    width: 25%;
+	    vertical-align: middle;
+	    padding: 15px 0;
+	    background-color: #DB8E35;
+		border:1px solid #DB8E35;
+	    text-align: center;
+	    color: #fff;
+	    border-radius: 8px;
+	    font-size: 1.3rem;
+	}
+	.seihin01 li.li02{
+	    display: inline-block;
+	    width: 24%;
+	    vertical-align: middle;
+	    padding: 15px 0;
+	    background-color: #DB8E35;
+		border:1px solid #DB8E35;
+	    text-align: center;
+	    color: #fff;
+	    border-radius: 8px;
+	    font-size: 1.3rem;
+	}
+	.seihin01 li img{
+	    width: 20px;
+	    vertical-align: bottom;
+	}
+
+
+}
+@media only screen and (max-width: 800px) {
+	div#tamanegi{
+	    padding-top: 60px;
+	    margin-top: -60px;
+	}
+	div#ninniku{
+	    padding-top: 60px;
+	    margin-top: -60px;
+	}
+	div#hourensou{
+	    padding-top: 60px;
+	    margin-top: -60px;
+	}
+	div#tomato{
+	    padding-top: 60px;
+	    margin-top: -60px;
+	}
+
+	.seihin01{
+		margin-bottom:10px;
+	}
+	.seihin01 a.link02{
+		margin-left:0;
+	}
+	.seihin01 p{
+		text-align:center;
+		color:#DB8E35;
+		display: block;
+	    font-size: 1.3rem;
+	    font-weight: bold;
+	    line-height: 2rem;
+	}
+	.seihin01 li.li01{
+	    display: inline-block;
+	    width: 49%;
+	    vertical-align: middle;
+	    padding: 15px 0;
+	    background-color: #DB8E35;
+	    border: 1px solid #DB8E35;
+	    text-align: center;
+	    color: #fff;
+	    border-radius: 8px;
+	    font-size: 1.3rem;
+	    margin: 1% 0.5%;
+	}
+	.seihin01 li.li02{
+	    display: inline-block;
+	    width: 49%;
+	    vertical-align: middle;
+	    padding: 15px 0;
+	    background-color: #DB8E35;
+	    border: 1px solid #DB8E35;
+	    text-align: center;
+	    color: #fff;
+	    border-radius: 8px;
+	    font-size: 1.3rem;
+	    margin: 1% 0.5%;
+	}
+	.seihin02 .picarea{
+		width:100%;
+		float:left;
+	}
+	.seihin02 .txtarea{
+		width:100%;
+		float:right;
+	    margin-top: 8px;
+	}
+}
+/* ------------------------------------------------------------------
+ NEWS
+------------------------------------------------------------------ */
+.pager_top {
+  width: 100%;
+  text-align: center;
+}
+
+.pager_top .pager_list {
+  display: inline-block;
+  margin: 40px auto 0;
+}
+
+.pager_top li {
+  border: 2px solid #DB8E35;
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pager_top li a {
+  color: #DB8E35;
+  padding: 2px 10.5px;
+}
+
+.pager_top li a:hover {
+  background-color: #DB8E35;
+  color: #fff;
+}
+
+.pager_top .current a {
+  color: #fff;
+  padding: 2px 10.5px;
+}
+
+.pager_top .page-numbers  {
+  padding: 6px 10.5px;
+  display: block;
+}
+
+.pager_top li:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.pager_top .current {
+  background-color: #DB8E35;
+  color: #fff;
+}
+
+.pager_top .return {
+  margin-right: 20px;
+}
+
+.pager_top li.next {
+  margin-left: 20px;
+}
+
+.pager_top .return a,
+.pager_top .next a {
+  font-size: 13px;
+  padding: 6px 10.5px;
+}
+div.inner h2{
+    padding: 20px 0 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #DB8E35;
+}
+div .bri_box{
+	display: block;
+    line-height: 2.7rem;
+}
+div .bri_box p{
+	display: block;
+    line-height: 2.7rem;
+}
+div .bri_box h3{
+	padding-bottom: 15px;
+}
+div .briefingText a{
+	padding: 10px 15px;
+    border: 1px solid #DB8E35;
+    margin-top: 15px;
+    float: right;
+    color: #DB8E35;
+}
+div .briefingText a:hover{
+	padding: 10px 15px;
+    border: 1px solid #DB8E35;
+    margin-top: 15px;
+    float: right;
+    color: #fff;
+  	background-color: #DB8E35;
+}
+div .thum{
+    width: 75%;
+    margin: 0 auto;
+}
+div .thum img{
+	width: 100% !important;
+    height: auto;
+	padding-bottom:15px;
+}
+@media only screen and (max-width: 800px) {
+  .pager_top {
+/**    display: none;**/
+    display: block;
+    font-size: 6px;
+  }
+
+  .news_more {
+/**    display: block;
+    margin: 12.9% 0;**/
+  }
+
+  .news_more_btn {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #999;
+    background-color: #f2f2f2;
+    display: inline-block;
+    color: #DB8E35;
+    font-size: 5.3vw;
+    padding: 5.8% 0px;
+  }
+  .pager_top .page-numbers  {
+    padding: 8px 7.5px;
+    display: block;
+  }
+  .pager_top li {
+    font-size: 10px;
+  }
+  .pager_top li:nth-child(n+2) {
+    margin-left: 5px;
+  }
+  .pager_top .pager_list {
+    display: inline-block;
+    margin: 40px auto 15px;
+  }
+
+
+}
+
+

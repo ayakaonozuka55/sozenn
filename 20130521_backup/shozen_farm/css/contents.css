@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+common
+------------------------------------------------------------------ */
+.m0{
+	margin:0px !important;
+}
+
+.mb0{
+	margin-bottom:0px !important;
+}
+
+.mb05{
+	margin-bottom:5px !important;
+}
+
+.mb10{
+	margin:0px 0px 10px 0px !important;
+}
+
+.mb15{
+	margin:0px 0px 15px 0px !important;
+}
+
+.mb20{
+	margin:0px 0px 20px 0px !important;
+}
+
+.mb40{
+	margin:0px 0px 40px 0px !important;
+}
+
+.fl{
+	float:left !important;
+}
+
+.fr{
+	float:right !important;
+}
+
+.tc{
+	text-align:center;
+}
+
+.tr{
+	text-align:right;
+}
+
+.f10{
+	font-size:10px !important;
+}
+
+.red{
+	color:#e93939 !important;
+}
+
+.blue{
+	color:#0095da !important;
+}
+
+.green{
+	color:#339900 !important;
+}
+
+div#mainVisual{
+	margin:0 0 15px 0;
+}
+
+div#main h2{
+	border-bottom:5px solid #76BF39;
+	font-size:18px;
+	color:#76BF39;
+	line-height:28px;
+	padding:0 0 2px 0;
+	margin:0 0 30px 0;
+}
+
+p.lead{
+	line-height:1.6;
+	margin:0 0 15px 0;
+}
+
+
+.pagetop{
+	clear:both;
+	text-align:right;
+}
+
+/* ------------------------------------------------------------------
+list
+------------------------------------------------------------------ */
+ul.num,
+ul.disc{
+	margin:0 0 15px 0;
+	overflow:hidden;
+}
+
+ul.num li{
+	list-style-type:decimal;
+	margin:0 0 5px 20px;
+	line-height:1.5;
+}
+
+ul.disc li{
+	list-style-type:disc;
+	margin:0 0 5px 15px;
+	line-height:1.5;
+}
+
+/* ------------------------------------------------------------------
+pankuzu
+------------------------------------------------------------------ */
+ul#pankuzu{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 15px 0;
+	line-height:1;
+	font-size:10px;
+}
+
+ul#pankuzu li{
+	float:left;
+	margin:0 8px 0 0;
+	background:url(../images/common/pankuzu_arrow.gif) 0 50% no-repeat;
+	padding:0 0 0 10px;
+}
+
+ul#pankuzu li#home{
+	padding:0;
+	background:none;
+}
+
+/* ------------------------------------------------------------------
+subNav
+------------------------------------------------------------------ */
+ul#subNav{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 20px 0;
+}
+
+ul#subNav li{
+	float:left;
+	margin:0 5px 0 0;
+	text-align:center;
+	height:28px;
+	padding:2px 0 0 0;
+	line-height:28px;
+}
+
+ul#subNav li.s01{
+	width:90px;
+	background:url(../images/common/subnav_01.gif) no-repeat;
+}
+
+ul#subNav li.s02{
+	width:135px;
+	background:url(../images/common/subnav_02.gif) no-repeat;
+}
+
+ul#subNav li.s03{
+	width:170px;
+	background:url(../images/common/subnav_03.gif) no-repeat;
+}
+
+
+/* ------------------------------------------------------------------
+btmInq
+------------------------------------------------------------------ */
+div#btmInq{
+	position:relative;
+	width:730px;
+	height:180px;
+	background:url(../images/common/btminq_bg.jpg) no-repeat;
+	margin:0 0 20px 0;
+}
+
+div#btmInq h5{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+
+div#btmInq p{
+	position:absolute;
+	top:53px;
+	left:20px;
+	width:500px;
+	line-height:1.4;
+}
+
+div#btmInq div.tel{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+}
+
+div#btmInq div.btn{
+	position:absolute;
+	bottom:20px;
+	left:300px;
+}
+

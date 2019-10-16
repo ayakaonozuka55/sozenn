@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+branding
+------------------------------------------------------------------ */
+div#branding{
+	width:980px;
+	height:270px;
+	overflow:hidden;
+	background:url(../images/top/image_bg.jpg) 0 0 no-repeat;
+	margin:0 0 30px 0;
+}
+
+div#branding div{
+	width:980px;
+	height:270px;
+	overflow:hidden;
+}
+
+/* ------------------------------------------------------------------
+top01
+------------------------------------------------------------------ */
+div#top01{
+	background:#fffadb;
+	padding:10px;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div#top01 div.comment{
+	background:url(../images/top/cont_01_01_bg.jpg) no-repeat;
+	width:256px;
+	height:107px;
+	padding:25px 16px 16px 77px;
+}
+
+div#top01 div.co01{
+	background:url(../images/top/cont_01_01_bg.jpg) no-repeat;
+}
+
+div#top01 div.co02{
+	background:url(../images/top/cont_01_02_bg.jpg) no-repeat;
+}
+
+div#top01 div.co03{
+	background:url(../images/top/cont_01_03_bg.jpg) no-repeat;
+}
+
+div#top01 div.co04{
+	background:url(../images/top/cont_01_04_bg.jpg) no-repeat;
+}
+
+div#top01 div.comment h4{
+	margin:0 0 10px 0;
+}
+
+div#top01 div.comment p{
+	line-height:1.4;
+}
+
+/* ------------------------------------------------------------------
+top02
+------------------------------------------------------------------ */
+div#top02{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div#top02 div.col{
+	width:220px;
+	height:250px;
+	float:left;
+	padding:5px;
+	border:5px solid #ecf8e2;
+	background:#ecf8e2 url(../images/top/col_white_bg.png) repeat-x;
+	line-height:1.4;
+	float:left;
+	margin:0 5px 0 0;
+}
+
+div#top02 div.col h4{
+	color:#339900;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+
+div#top02 div.col div.pic{
+	margin:0 0 10px 0;
+}
+
+/* ------------------------------------------------------------------
+top03
+------------------------------------------------------------------ */
+div#top03{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div#top03 div.col{
+	width:220px;
+	height:250px;
+	float:left;
+	padding:5px;
+	border:5px solid #fff7c9;
+	background:#fff7c9 url(../images/top/col_white_bg.png) repeat-x;
+	line-height:1.4;
+	float:left;
+	margin:0 5px 0 0;
+}
+
+div#top03 div.col h4{
+	color:#eb6f00;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+
+div#top03 div.col div.pic{
+	margin:0 0 10px 0;
+	text-align:center;
+}
+
+/* ------------------------------------------------------------------
+top04
+------------------------------------------------------------------ */
+div#top04{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div#top04 div.col{
+	width: 380px;
+	height: 250px;
+	float: left;
+	padding: 5px;
+	border: 5px solid #ecf8e2;
+	background: #ecf8e2 url(../images/top/col_white_bg.png) repeat-x;
+	line-height: 1.4;
+	float: left;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+div#top04 div.col h4{
+	color:#339900;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+
+div#top04 div.col h4 span{
+	font-size:12px;
+}
+
+div#top04 div.col div.pic{
+	margin:0 0 10px 0;
+	text-align:center;
+}
+
+div#top04 div.col p{
+	text-align:center;
+}
+
+div#top04 div.col02{
+	width:320px;
+	float:right;
+}
+
+div#top04 div.col02 div{
+	width:155px;
+	margin:0 0 10px 5px;
+	float:left;
+	text-align:center;
+}
+
+div#top04 div.col02 div img{
+	padding:0 0 5px 0;
+}
+
+div#top04 div.col02 div a{
+	color:#339900;
+}
+
+/* ------------------------------------------------------------------
+link
+------------------------------------------------------------------ */
+p.top01Link{
+	background:url(../images/top/more_ye.gif) no-repeat;
+	line-height:35px;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+p.top01Link a{
+	padding:0 0 0 20px;
+	background:url(../images/common/arrow_black.png) 0 50% no-repeat;
+}
+
+p.top02Link{
+	background:url(../images/top/more_green.gif) no-repeat;
+	line-height:35px;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+p.top02Link a{
+	padding:0 0 0 20px;
+	background:url(../images/common/arrow_black.png) 0 50% no-repeat;
+}

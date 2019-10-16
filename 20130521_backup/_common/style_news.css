@@ -1,0 +1,23 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+
+.news {
+	padding:2px;
+	font-size:13px;}
+
+
+/* テキストリンクの設定 */
+
+a:link{
+	color:#4BA500;
+	text-decoration: underline;
+}
+a:visited{
+	color:#4BA500;
+	text-decoration: underline;
+}
+a:hover{
+	color:#66E300;
+	text-decoration: underline;
+}

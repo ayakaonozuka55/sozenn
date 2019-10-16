@@ -1,0 +1,1491 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@charset "utf-8";
+/*--------------------------------------------------
+ base
+--------------------------------------------------*/
+html, body, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 1;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    transition: all 0.3s ease;
+    color: #333;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+/* ------------------------------------------------------------------
+ font
+------------------------------------------------------------------ */
+/*
+.font-noto {
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+}
+*/
+body{
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+@media only screen and (min-width: 769px) {
+    html {
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 12px;
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 12px;
+        font-size: 1.2rem;
+    }
+}
+.f10 {
+    font-size: 10px;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px;
+}
+.f22 {
+    font-size: 22px;
+}
+.f24 {
+    font-size: 24px;
+}
+/* ------------------------------------------------------------------
+ body
+------------------------------------------------------------------ */
+html, body {
+    -webkit-backface-visibility: hidden;
+}
+body {
+    line-height: 1;
+    color: #333;
+    padding: 95px 0 0;
+}
+body.visible {
+    overflow: hidden;
+}
+.pconly{
+	display:block;
+}
+.sponly{
+	display:none;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 60px 0 0;
+    }
+	.pconly{
+		display:none;
+	}
+	.sponly{
+		display:block;
+	}
+}
+/* ------------------------------------------------------------------
+ layout
+------------------------------------------------------------------ */
+.top-section {
+    padding-top: 3.1vh;
+    height: 93vh !important;
+    overflow: hidden;
+}
+.top-section:after {
+    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain1.png);
+    position: absolute;
+    z-index: 98;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media only screen and (max-height: 950px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 18vh;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+}
+@media only screen and (max-height: 700px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain2.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 18vh;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 18vh;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+}
+@media only screen and (max-width: 800px) {
+	.top-section:after {
+	    content: initial;
+		/*
+	    content: '';
+		display:inline-block;
+		background:url( http://www.shozen.com/shozen_farm/img/sp/top/topmv.png);  
+	    background-size:contain;
+	    background-repeat: no-repeat;
+	    vertical-align:middle;
+	    position: absolute;
+	    width: 85%;
+		height:100%;
+	    top: 40px;
+		*/
+	}
+}
+
+.l-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.l-column {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.l-row {
+    zoom: 1;
+}
+.l-row:before,
+.l-row:after {
+    content: "";
+    display: table;
+}
+.l-row:after {
+    clear: both;
+}
+/*
+@media only screen and (max-width: 1200px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 115px;
+	    left: 0;
+	    -webkit-transform: scale(0.8);
+	    transform: scale(0.8);
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 115px;
+	    left: -5%;
+	    -webkit-transform: scale(0.7);
+	    transform: scale(0.7);
+	}
+}
+@media only screen and (max-width: 900px) {
+	.top-section:after {
+	    content: url(http://www.shozen.com/shozen_farm/img/pc/top/topmain.png);
+	    position: absolute;
+	    z-index: 98;
+	    top: 115px;
+	    left: -10%;
+	    -webkit-transform: scale(0.6);
+	    transform: scale(0.6);
+	}
+}
+*/
+@media only screen and (max-width: 800px) {
+    .top-section {
+        padding: 0;
+	    height: auto !important;
+    }
+    .l-section {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .l-column {
+        width: 100%;
+        max-width: none;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+/* ------------------------------------------------------------------
+ wrapper
+------------------------------------------------------------------ */
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    display: table;
+}
+.wrapper_wideall {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100% !important;
+    overflow: hidden;
+/*    max-width: 1900px;*/
+}
+@media only screen and (max-height: 1050px) {
+	.wrapper_wideall {
+	    width: 100%;
+	    margin: 0 auto;
+	    position: relative;
+	    height: 91vh !important;
+	    overflow: hidden;
+	    /*max-width: 1900px;*/
+	}
+}
+@media only screen and (max-height: 800px) {
+	.wrapper_wideall {
+	    width: 100%;
+	    margin: 0 auto;
+	    position: relative;
+	    height: 91vh !important;
+	    overflow: hidden;
+	    /*max-width: 1900px;*/
+	}
+}
+@media only screen and (max-height: 650px) {
+	.wrapper_wideall {
+	    width: 100%;
+	    margin: 0 auto;
+	    position: relative;
+	    height: 87vh !important;
+	    overflow: hidden;
+	    /*max-width: 1900px;*/
+	}
+}
+@media only screen and (max-width: 800px) {
+	.wrapper {
+	    max-width: 1000px;
+	    width: 100%;
+	    margin: 0 auto;
+	    background-color: #fff;
+	    position: relative;
+	    display: -webkit-inline-box;
+	}
+}
+.head-area {
+width: 100%;
+    margin: 0 auto;
+    /* background-color: #DB8E36; */
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+.head-area:before {
+	content: "";
+    position: absolute;
+    height: 95px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+.head-area:after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    background-color: #DB8E36;
+    width: 100%;
+    z-index: 1;
+    margin-top: 95px;
+}
+.foot-area {
+    width: 100%;
+    margin: 0 auto;
+    background-color:#DB8E36;
+    position: relative;
+}
+@media only screen and (max-height: 800px) {
+	.head-area:before {
+		content: "";
+	    position: absolute;
+	    height: 95px;
+	    background-color: #fff;
+	    width: 100%;
+	    z-index: 1;
+	}
+	.head-area:after {
+	    content: "";
+	    position: absolute;
+	    height: 50px;
+	    background-color: #DB8E36;
+	    width: 100%;
+	    z-index: 1;
+	    margin-top: 95px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.wrapper_wideall {
+	    width: 100%;
+	    margin: 0 auto;
+	    position: initial;
+	    height: initial !important;
+	    overflow: hidden;
+	    max-width: 800px;
+	}
+	.head-area:before {
+		content: "";
+	    position: absolute;
+	    height: 60px;
+	    background-color: #fff;
+	    width: 100%;
+	    z-index: 1;
+	}
+	.head-area:after {
+	    content: "";
+	    position: absolute;
+	    height: 0;
+	    background-color: #DB8E36;
+	    width: 100%;
+	    z-index: 1;
+	    margin-top: 81px;
+	}
+}
+
+/* ------------------------------------------------------------------
+ header
+------------------------------------------------------------------ */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+/*
+    transform: translateX(-50%);
+*/
+    max-width: 1200px;
+    width: 100%;
+    /* height: 135px; */
+    /* background: rgba(255, 255, 255, 1); */
+    /* z-index: 99; */
+    /* transition: all 0.3s ease; */
+    display: table;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    z-index: 2;
+}
+.header .logo {
+    float: left;
+    display: block;
+    width: 48px;
+}
+.header .logo img{
+    width: 100%;
+}
+.header .logo a {
+    display: block;
+}
+
+#navToggle {
+    display:none; /*通常時は非表示にしておきます*/
+    position:absolute; /*bodyに対しての絶対位置指定です*/
+    right:13px;
+    top:13px;
+    width:30px;
+    height:25px;
+    cursor:pointer
+}
+#navToggle div {position:relative} /*spanの絶対位置指定の親にします*/
+#navToggle span {
+    display:block;
+    position:absolute; /*#navToggle div に対して*/
+    width:100%;
+    border-bottom:solid 3px #DB8E35;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out
+}
+#navToggle span:nth-child(1) {top:0}
+#navToggle span:nth-child(2) {top:11px}
+#navToggle span:nth-child(3) {top:22px}
+
+/*header footer*/
+header {
+    width:100%;
+    z-index:2;
+    position:fixed;
+}
+/*header menu*/
+header {
+    display:table;
+    font-size:0; /*ul,liが親のfont-sizeを継承して隙間が空くのをリセット*/
+    line-height:0;
+	margin-left:-50%;
+    max-width: 1200px;
+    width: 100%;
+    position:absolute;
+}
+header h1, nav {
+/**    display:table-cell**/
+/**    padding-top: 8px;**/
+}
+header h1, p {
+/**    display: inline-block;**/
+}
+header h1, .copttl {
+	color:#000;
+    font-size: 1.5rem;
+}
+header h1, .cop {
+	color:#DB8E35;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+	width: 100%;
+	padding-top: 10px;
+    display: inline-block;
+    height: 95px;
+}
+nav {
+    text-align:center;
+    vertical-align:bottom
+}
+nav a.headlink01{
+    vertical-align:middle;
+	border-left:1px solid #ecae66;
+    display: table-cell;
+    background-color: #DB8E35;
+	color:#FFF;
+}
+nav a.headlink01:hover{
+    vertical-align:middle;
+	border-left:1px solid #ecae66;
+    display: table-cell;
+    background-color: #FFF;
+	color:#DB8E35;
+}
+header h1 a img {
+    padding-right: 5px;
+    width: 100%;
+}
+header ul {
+    font-size: 13px;
+    line-height: 1;
+    /* border-left: 1px solid #ecae66; */
+    height: 50px;
+	display: inline-block;
+}
+header ul li {
+    display: inline-block;
+    width: 237px;
+    font-size: 2rem;
+    /* background-color: #DB8E35; */
+    /* color: #fff; */
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+	/* border-right: 1px solid #ecae66; */
+}
+
+header ul li:first-child{
+	/* border-left: 1px solid #ecae66; */
+}
+header ul li span.navsmall{font-size:1.2rem;display: initial;}
+header ul li::after {content:'';}
+header ul li:last-child::after {content:''}
+header ul li a {
+	color:inherit;line-height: 1.8rem;
+}
+header ul li a:hover{
+	background-color: #fff;color: #DB8E35;
+}
+header ul li i:hover{display: initial;}
+
+header #navTelPc{
+	display: block;
+    text-align: right;
+    float: right;
+    color: #000;
+	line-height: 12px;
+	position: relative;
+	padding-top: 15px;
+    font-size: 2.5rem;
+}
+header #navTelPc span{
+    font-size:14px;
+}
+header #navTelSp{
+    display:none;
+}
+header #navMailPc{
+    display: block;
+    float: right;
+    position: relative;
+    padding: 8px 20px;
+    border: 1px solid #DB8E35;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+	margin-top: 15px;
+	background-color:#fff;
+    color: #DB8E35;
+}
+header #navMailPc:hover{
+    display: block;
+    float: right;
+    position: relative;
+    padding: 8px 20px;
+    border: 1px solid #DB8E35;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+	margin-top: 15px;
+	background-color:#DB8E35;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .header{
+        font-size: 1.4rem;
+    }
+    .header .logo {
+        width: 48px;
+        margin-top: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header .logo {
+        width: 48px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header .logo {
+        width: 48px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: none;
+        margin-top: -24.5px;
+        margin-left: -135px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header {
+        height: 60px;border-bottom: 1px solid #f2f2f2;
+    }
+    .header .logo {
+        width: 48px;
+        margin-top: -17px;
+        margin-left: -95px;
+    }
+	header h1, nav {
+	    padding-top: 1rem;
+	}
+	header h1, p {
+	    display: inline-block;
+	    padding-left: 0.5rem;
+	    line-height: 1.5rem;
+	}
+	header h1, .copttl {
+	    font-size: 1rem;
+	}
+	header h1 {
+		color:#DB8E35;
+	    font-size: 1.5rem;
+		height:auto;
+		padding:5px 0 0 5px;
+	}
+	header .cop {
+		color:#DB8E35;
+	    font-size: 1.5rem;
+		height:auto;
+		padding:0;
+	}
+	header h1 a img {
+		width:30px;
+	}
+	nav a.headlink01{
+	    vertical-align:middle;
+		border-left:1px solid #ecae66;
+	    display: block;
+	    background-color: #DB8E35;
+		color:#FFF;
+	}
+	nav a.headlink01:hover{
+	    vertical-align:middle;
+		border-left:1px solid #ecae66;
+	    display: block;
+	    background-color: #FFF;
+		color:#DB8E35;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	header h1, .copttl {
+	    font-size: 0.8rem;
+	}
+	header h1, .cop {
+		color:#DB8E35;
+	    font-size: 1.2rem;
+	}
+}
+.headpconly{
+	display:block;
+    float: left;
+    background-color: #fff;
+}
+.headsponly{
+	display:none;
+}
+@media only screen and (max-width: 800px) {
+	.headpconly{
+		display:none;
+	}
+	.headsponly{
+		display:block;
+	}
+}
+
+/* ------------------------------------------------------------------
+ header nav
+------------------------------------------------------------------ */
+
+@media screen and (max-width: 800px) {
+ 
+/*header menu*/
+/*nav要素は絶対位置指定にして、ビューの外側に置いて見えなくします。
+nav の中の ul li は横並びを解除して縦組みにレイアウトし直します。*/
+header nav {
+    position: absolute; /*bodyに対しての絶対位置*/
+    right:0;
+    top: -310px; /*通常時はビュー外*/
+    background:rgba(255,255,255,.7);
+    width:100%;
+/**    padding:0 10px;**/
+    -webkit-transition:.5s ease-in-out; /*transitionで動きを*/
+    -moz-transition:.5s ease-in-out;
+    transition:.5s ease-in-out;
+    text-align:left;
+    display: grid;
+}
+header ul {margin:0}
+header ul li {
+    display:block;
+    margin:0;
+    border-bottom:dotted 1px #F1B774;
+	background-color:#DB8E35;
+    line-height:3;
+    width: 100%;
+	color: #fff;
+}
+header ul li :hover{
+    display:block;
+    margin:0;
+    border-bottom:dotted 1px #F1B774;
+	background-color:#DB8E35;
+    line-height:3;
+    width: 100%;
+	color: #fff;
+}
+header ul li span.navsmall{font-size:initial;border: none;}
+header ul li.inc {
+    display:block;
+    margin:0;
+    border-bottom:dotted 1px #F1B774;
+	background-color:#DA5800;
+    line-height:3;
+    width: 100%;
+	color: #fff;
+}
+header ul li a {
+	/* display:block; */
+	padding-left: 3rem;
+}
+header ul li a:hover{
+	background-color: #DB8E35;color: #fff;
+}
+header ul li::before {
+    content: '▷';
+    position: initial;
+    padding: 0 1rem;
+}
+header ul li::after {content:''}
+/* header ul li:last-child {border-bottom:none} */
+header ul li i {display:none !important;}
+header ul li br {display:none !important;}
+
+/* Toggle(Button) */
+/*display:noneだったボタンを display:blockにして表示します*/
+#navToggle {display:block;padding-top: 1vw;}
+ 
+/* Click Toggle(Button) */
+/*ここから jQueryで header要素に付けた「.openNav」を利用します*/
+/*.openNavが付いた要素内のボタン（#navToggle）内のspanへの指定*/
+/*最初のspanをマイナス45度に*/
+.openNav #navToggle span:nth-child(1) {
+    top: 11px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg)}
+/*2番目と3番目のspanを45度に*/
+.openNav #navToggle span:nth-child(2),
+.openNav #navToggle span:nth-child(3) {
+    top: 11px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    transform:rotate(45deg)}
+ 
+/*header menu*/
+/*.openNavが付いた要素の中のnavを 縦方向に351px移動（=表示される）*/
+.openNav nav {
+    -moz-transform: translateY(360px);
+    -webkit-transform: translateY(360px);
+    transform: translateY(360px)}
+
+header #navTelPc{
+    display:none;
+}
+header #navTelSp{
+    display:block;
+    position: absolute;
+    top: 1.5rem;
+    right: 5.5rem;
+    width: 30px;
+}
+header #navTelSp img{
+    width: 100%;
+}
+header #navMailPc{
+    display:none;
+}
+
+}
+/* ------------------------------------------------------------------
+ top
+------------------------------------------------------------------ */
+div .toppic01{
+	width:25%;
+	float:left;
+    overflow: hidden;
+	height: 90vh !important;
+}
+div .toppic01 img{
+    transition:  .7s;
+    -webkit-transition: -webkit-transform .7s;
+    width: 100%;
+    height: 100%;
+}
+.toppic01:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div .toppic01:after{
+    content: "生産 ›";
+    position: absolute;
+    z-index: 2;
+    bottom:2.7rem;
+	left:1%;
+	color:#fff;
+	font-size: 3vh;
+    font-weight: 500;
+}
+div .toppic02{
+	width:25%;
+	float:left;
+    overflow: hidden;
+	height: 90vh !important;
+}
+div .toppic02 img{
+    transition:  .7s;
+    -webkit-transition: -webkit-transform .7s;
+    width: 100%;
+    height: 100%;
+}
+.toppic02:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div .toppic02:after{
+    content: "カット加工 >";
+    position: absolute;
+    z-index: 2;
+    bottom:2.7rem;
+	left:26%;
+	color:#fff;
+	font-size: 3vh;
+    font-weight: 500;
+}
+div .toppic03{
+	width:25%;
+	float:left;
+    overflow: hidden;
+	height: 90vh !important;
+}
+div .toppic03 img{
+    transition:  .7s;
+    -webkit-transition: -webkit-transform .7s;
+    width: 100%;
+    height: 100%;
+}
+.toppic03:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div .toppic03:after{
+    content: "冷凍貯蔵 >";
+    position: absolute;
+    z-index: 2;
+    bottom:2.7rem;
+	left:51%;
+	color:#fff;
+	font-size: 3vh;
+    font-weight: 500;
+}
+div .toppic04{
+	width:25%;
+	float:left;
+    overflow: hidden;
+	height: 90vh !important;
+}
+div .toppic04 img{
+    transition:  .7s;
+    -webkit-transition: -webkit-transform .7s;
+    width: 100%;
+    height: 100%;
+}
+.toppic04:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div .toppic04:after{
+    content: "流通販売 >";
+    position: absolute;
+    z-index: 2;
+    bottom:2.7rem;
+	left:76%;
+	color:#fff;
+	font-size: 3vh;
+    font-weight: 500;
+}
+.l-section div.newsttl{
+    width: 100%;
+    border-bottom: 2px solid #DB8E35;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+	font-weight: bold;
+}
+.l-section div.newsarea{
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.l-section div.day{
+    width: 10%;
+    float:left;
+}
+.l-section div.cate{
+    width: 10%;
+    float:left;
+}
+.l-section div.cate span{
+    padding:2px 12px;
+	background-color: #DB8E35;color: #fff;
+    font-size: 1.2rem;
+}
+.l-section div.ttl{
+    width: 80%;
+    float:left;
+	color:#DB8E35;
+}
+.l-section div.ttl a{
+	color:#DB8E35;
+}
+.l-section div.ttl a:hover{
+	text-decoration: underline;
+}
+.l-section div.alllink{
+    width: 170px;
+	padding:10px 0;
+	margin-top:15px;
+	text-align:center;
+	color:#DB8E35;
+	background-color: #fff;
+    border: 1px solid #DB8E35;
+}
+.l-section div.alllink:hover{
+    width: 170px;
+	padding:10px 0;
+	margin-top:15px;
+	text-align:center;
+	color:#fff;
+	background-color: #DB8E35;
+    border: 1px solid #DB8E35;
+}
+
+@media screen and (min-height: 1035px) {
+	div .toppic01:after{
+	    content: "生産 ›";
+	    position: absolute;
+	    z-index: 2;
+	    /*top:910px;*/
+	    bottom:15px;
+		left:1%;
+		color:#fff;
+		font-size: 3vh;
+	    font-weight: 500;
+	}
+	div .toppic02:after{
+	    content: "カット加工 >";
+	    position: absolute;
+	    z-index: 2;
+	    /*top:910px;*/
+	    bottom:15px;
+		left:26%;
+		color:#fff;
+		font-size: 3vh;
+	    font-weight: 500;
+	}
+	div .toppic03:after{
+	    content: "冷凍貯蔵 >";
+	    position: absolute;
+	    z-index: 2;
+	    /*top:910px;*/
+	    bottom:15px;
+		left:51%;
+		color:#fff;
+		font-size: 3vh;
+	    font-weight: 500;
+	}
+	div .toppic04:after{
+	    content: "流通販売 >";
+	    position: absolute;
+	    z-index: 2;
+	    /*top:910px;*/
+	    bottom:15px;
+		left:76%;
+		color:#fff;
+		font-size: 3vh;
+	    font-weight: 500;
+	}
+}
+.spmv_area {
+    display:none;
+}
+div .toppic01 p{
+	display:none;
+}
+div .toppic02 p{
+	display:none;
+}
+div .toppic03 p{
+	display:none;
+}
+div .toppic04 p{
+	display:none;
+}
+@media screen and (max-width: 1200px) {
+	.l-section{
+	    width: 95%;
+		margin:0 auto;
+	}
+	.l-section div.day{
+	    width: 12%;
+	    float:left;
+	}
+	.l-section div.cate{
+	    width: 15%;
+	    float:left;
+	}
+	.l-section div.ttl{
+	    width: 73%;
+	    float:left;
+		color:#DB8E35;
+	}
+
+}
+@media screen and (max-width: 800px) {
+	.spmv_area {
+	    display:block;
+		background-image: url("http://www.shozen.com/shozen_farm/img/sp/top/mv_back.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.spmv_area p.mon{
+	    padding-left: 2rem;
+	    padding-bottom: 2rem;
+	    font-size: 3.5vw;
+	    line-height: 5vw;
+	    color: #777;
+	    font-weight: bold;
+	}
+	.spmv_area p.pic{
+		width: 85%;
+	    margin: 0 auto;
+	    padding: 25px 0 0 0;
+	    display: block;
+	}
+	.spmv_area p.pic img{
+	    width: 100%;
+	}
+	div .toppic01{
+		width:50%;
+		float:left;
+    	overflow: hidden;
+		height:25vw !important;
+	    display:block;
+		background-image: url("http://www.shozen.com/shozen_farm/img/sp/top/bt01.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div .toppic01 img{
+		display:none;
+	}
+	div .toppic01 p{
+	    display: block;
+	    font-size: 5vw;
+	    color: #fff;
+	    padding-top: 18vw;
+	}
+	div .toppic01:after{
+	    content: initial;
+	}
+	div .toppic02{
+		width:50%;
+		float:left;
+    	overflow: hidden;
+		height:25vw !important;
+	    display:block;
+		background-image: url("http://www.shozen.com/shozen_farm/img/sp/top/bt02.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div .toppic02 img{
+		display:none;
+	}
+	div .toppic02 p{
+	    display: block;
+	    font-size: 5vw;
+	    color: #fff;
+	    padding-top: 18vw;
+	}
+	div .toppic02:after{
+	    content: initial;
+	}
+	div .toppic03{
+		width:50%;
+		float:left;
+    	overflow: hidden;
+		height:25vw !important;
+	    display:block;
+		background-image: url("http://www.shozen.com/shozen_farm/img/sp/top/bt03.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div .toppic03 img{
+		display:none;
+	}
+	div .toppic03 p{
+	    display: block;
+	    font-size: 5vw;
+	    color: #fff;
+	    padding-top: 18vw;
+	}
+	div .toppic03:after{
+	    content: initial;
+	}
+	div .toppic04{
+		width:50%;
+		float:left;
+    	overflow: hidden;
+		height:25vw !important;
+	    display:block;
+		background-image: url("http://www.shozen.com/shozen_farm/img/sp/top/bt04.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div .toppic04 img{
+		display:none;
+	}
+	div .toppic04 p{
+	    display: block;
+	    font-size: 5vw;
+	    color: #fff;
+	    padding-top: 18vw;
+	}
+	div .toppic04:after{
+	    content: initial;
+	}
+
+	.l-section div.newsttl{
+	    width: 100%;
+	    border-bottom: 2px solid #DB8E35;
+	    padding-bottom: 10px;
+	    padding-top: 40px;
+	    margin-bottom: 10px;
+	    font-size: 2rem;
+		font-weight: bold;
+	}
+	.l-section div.newsarea{
+	    width: 100%;
+	    border-bottom: 1px solid #DDD;
+	    padding: 15px 0;
+	    font-size: 1.5rem;
+	}
+	.l-section div.day{
+	    width: 40%;
+	    float:left;
+	}
+	.l-section div.cate{
+	    width: 40%;
+    	float: right;
+	    text-align: right;
+	}
+	.l-section div.cate span{
+	    padding:2px 12px;
+		background-color: #DB8E35;color: #fff;
+	}
+	.l-section div.ttl{
+	    width: 100%;
+	    float:left;
+		color:#DB8E35;
+	    padding-top: 15px;
+	    line-height: 2rem;
+	}
+	.l-section div.ttl a{
+		color:#DB8E35;
+	}
+	.l-section div.ttl a:hover{
+		text-decoration: underline;
+	}
+	.l-section div.alllink{
+	    width: 170px;
+		padding:10px 0;
+		margin-top:15px;
+		text-align:center;
+	    float:right;
+		color:#DB8E35;
+		background-color: #fff;
+	    border: 1px solid #DB8E35;
+	}
+	.l-section div.alllink:hover{
+	    width: 170px;
+		padding:10px 0;
+		margin-top:15px;
+		text-align:center;
+	    float:right;
+		color:#fff;
+		background-color: #DB8E35;
+	    border: 1px solid #DB8E35;
+	}
+
+}
+
+/* ------------------------------------------------------------------
+footer
+------------------------------------------------------------------ */
+
+.footer{
+}
+.footer_top{
+    background-color: #003f98;
+    padding: 75px 0;
+}
+.footer_top_sub{
+    float: left;
+    width: 50%;
+    padding-right: 5%;
+}
+.footer_top_main{
+    float: right;
+    width: 50%;
+    padding-left: 5%;
+}
+.footer_logo {
+    width: 372px;
+    margin: 0 auto 15px;
+}
+.footer_logo  img{
+}
+.footer_copyright {
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #999;
+    letter-spacing: 0.1em;
+	margin-top:20px;
+}
+.footer_middle{
+    padding: 15px 0;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footlink{
+    display:block;
+}
+.footlink a{
+    color:#000;
+}
+.footlink a:hover{
+    text-decoration: underline;
+}
+.footer_bottom {
+    padding: 0;
+    text-align: center;
+}
+.footer_bottom h2{
+    font-size:1.2rem;
+}
+.footer_bottom h1{
+    font-size:2.5rem;
+	color:#DB8E35;
+}
+.footer_bottom h1 span{
+    font-size:1.5rem;
+	color:#DB8E35;
+}
+.footerall{
+    background-color: #DB8E35;
+    width: 100%;
+	margin-top: 5rem;
+    display: block;
+}
+.footerall .footerallinner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+	color:white;
+}
+.footerall .footerallinner .footlink01{
+    width: 16%;
+    margin: 7px 0.5%;
+    float: left;
+    text-align: center;
+    padding: 7px 0;
+    border: 1px solid #fff;
+	color:#fff;
+    background-color: #DB8E35;
+	line-height: 2rem;
+    height: 68px;
+}
+.footerall .footerallinner .footlink01 span{
+    font-size:1.2rem;
+}
+.footerall .footerallinner .footlink01:hover{
+    width: 16%;
+    margin: 7px 0.5%;
+    float: left;
+    text-align: center;
+    padding: 7px 0;
+    border: 1px solid #fff;
+	color:#DB8E35;
+    background-color: #fff;
+}
+.footerall .footerallinner .footlink02{
+    width: 14%;
+    margin: 7px 0.5%;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #fff;
+	color:#fff;
+    background-color: #DB8E35;
+}
+.footerall .footerallinner .footlink02:hover{
+    width: 14%;
+    margin: 7px 0.5%;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #fff;
+	color:#DB8E35;
+    background-color: #fff;
+}
+.footerall .footerallinner .footlink03{
+	width: 22%;
+    float: left;
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 16px;
+}
+.footerall .footerallinner .footlink03 a{
+   	color: #fff;
+	font-size: 2.5rem;
+}
+.footerall .footerallinner .footlink04{
+    width: 13%;
+    float: right;
+    text-align: center;
+    background-color: #FCDB00;
+    color: #DB8E35;
+    padding: 15px 0;
+    line-height: 2.2rem;
+	height: 82px;
+}
+.footerall .footerallinner .footlink04:hover{
+	color: #fff;
+}
+
+@media only screen and (max-width:800px) {
+    .footer{
+        width: 100%;
+    }
+    .footer_top{
+        padding: 60px 0;
+    }
+    .footer_top_sub{
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 7%;
+    }
+    .footer_top_main{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .footer_logo {
+	    width: 40px;
+	    margin: 0 10px 10px;
+	    float: left;
+    }
+	.footer_bottom h2{
+	    font-size:1.2rem;
+	    text-align: left;
+	    margin-top: 1.5rem;
+	}
+	.footer_bottom h1{
+	    font-size:2rem;
+		color:#DB8E35;
+	    text-align: left;
+	}
+	.footer_bottom h1 span{
+	    font-size:1.5rem;
+		color:#DB8E35;
+	}
+    .footer_logo  img{
+    }
+    .footer_middle{
+        padding: 0;
+    }
+	.footlink{
+	    display:none;
+	}
+    .footer_bottom {
+		padding: 20px 10px;
+    	margin-top: 41px;
+	    border-top: 2px solid #DB8E35;
+    }
+    .footer_inquiry{
+        color: #fff;
+    }
+	.footer_copyright {
+	    font-style: normal;
+	    font-size: 1rem;
+	    color: #999;
+	    letter-spacing: 0.1em;
+	}
+	.footerall{
+	    display: none;
+	}
+
+}
+/* pagetop */
+.pagetop {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	right:1rem;
+    z-index: 999;
+}
+.pagetop > a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+

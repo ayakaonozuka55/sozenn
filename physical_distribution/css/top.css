@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+branding
+------------------------------------------------------------------ */
+div#branding{
+	width:980px;
+	height:320px;
+	overflow:hidden;
+	background:url(../images/top/image_bg.jpg) 0 0 no-repeat;
+	margin:0 0 45px 0;
+}
+
+div#branding div{
+	width:980px;
+	height:320px;
+	overflow:hidden;
+}
+
+/* ------------------------------------------------------------------
+top01
+------------------------------------------------------------------ */
+div#top01{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+div#top01 div.col{
+	width:232px;
+	/*height:266px;*/
+	float:left;
+	padding:2px;
+	border:2px solid #C3EBA5;
+	background:#F8FDF5;
+	line-height:1.4;
+	margin:0 5px 0 0;
+}
+div#top01 div.col h4{
+	color:#339900;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+div#top01 div.col div.pic{
+	margin:13px 0 1px 11px;
+}
+div#top01 div.col div.btn{
+	margin:10px 0 10px 11px;
+}
+div#top01 div.col p{
+	margin:0 0 10px 11px;
+}
+
+
+/* ------------------------------------------------------------------
+top02
+------------------------------------------------------------------ */
+div#top02{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+div#top02 div.col{
+	width:170px;
+	float:left;
+	padding:2px;
+	border:2px solid #D2E5F5;
+	background:#FBFCFE;
+	line-height:1.4;
+	margin:0 6px 0 0;
+}
+div#top02 div.col h4{
+	color:#005566;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+div#top02 div.col div.pic{
+	margin:13px 0 1px 10px;
+}
+div#top02 div.col div.btn{
+	margin:10px 0 10px 10px;
+}
+div#top02 div.col p{
+	height:70px;
+	margin:0 0 10px 10px;
+}
+
+
+/* ------------------------------------------------------------------
+top03
+------------------------------------------------------------------ */
+div#top03{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+div#top03 div.col{
+	width:352px;
+	float:left;
+	padding:2px;
+	border:2px solid #C3EBA5;
+	background:#F8FDF5;
+	line-height:1.4;
+	margin:0 10px 0 0;
+}
+div#top03 div.col h4{
+	color:#339900;
+	font-size:18px;
+	text-align:center;
+	padding:10px 5px 5px 5px;
+}
+div#top03 div.col div.pic{
+	margin:0 0 1px 11px;
+}
+div#top03 div.col div.btn{
+	margin:17px 0 10px 76px;
+}
+div#top03 div.col p{
+	margin:0 0 0 11px;
+}
+
+
+/* ------------------------------------------------------------------
+topNews
+------------------------------------------------------------------ */
+div#topNews{
+}
+
+div#topNews dl{
+	width:730px;
+	background:url(../images/common/dot_gray2.gif) 0 100% repeat-x;
+	padding-bottom:9px;
+	margin-bottom:8px;
+}
+
+div#topNews dl dt{
+	float:left;
+	width:89px;
+	height:27px;
+	background:url(../images/common/stripe_blue2.gif) 0 0 repeat;
+	font-size:12px;
+	margin:0 10px 0 0;
+	clear:both;
+	text-align:center;
+	line-height:28px;	
+}
+
+div#topNews dl dd{
+	font-size:14px;
+	height:27px;
+	line-height:28px;
+}
+
+
+/* ------------------------------------------------------------------
+top04
+------------------------------------------------------------------ */
+/*div#top04{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div#top04 div.col{
+	width:180px;
+	height:250px;
+	float:left;
+	padding:5px;
+	border:5px solid #ecf8e2;
+	background:#ecf8e2 url(../images/top/col_white_bg.png) repeat-x;
+	line-height:1.4;
+	margin:0 5px 0 0;
+}
+
+div#top04 div.col h4{
+	color:#339900;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+
+div#top04 div.col h4 span{
+	font-size:12px;
+}
+
+div#top04 div.col div.pic{
+	margin:0 0 10px 0;
+	text-align:center;
+}
+
+div#top04 div.col p{
+	text-align:center;
+}
+
+div#top04 div.col02{
+	width:320px;
+	float:right;
+}
+
+div#top04 div.col02 div{
+	width:155px;
+	margin:0 0 10px 5px;
+	float:left;
+	text-align:center;
+}
+
+div#top04 div.col02 div img{
+	padding:0 0 5px 0;
+}
+
+div#top04 div.col02 div a{
+	color:#339900;
+}*/
+
+/* ------------------------------------------------------------------
+link
+------------------------------------------------------------------ */
+/*
+p.top01Link{
+	background:url(../images/top/more_ye.gif) no-repeat;
+	line-height:35px;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+p.top01Link a{
+	padding:0 0 0 20px;
+	background:url(../images/common/arrow_black.png) 0 50% no-repeat;
+}
+
+p.top02Link{
+	background:url(../images/top/more_green.gif) no-repeat;
+	line-height:35px;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+p.top02Link a{
+	padding:0 0 0 20px;
+	background:url(../images/common/arrow_black.png) 0 50% no-repeat;
+}
+*/

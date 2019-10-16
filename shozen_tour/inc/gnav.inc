@@ -1,0 +1,8 @@
+<ul id="gNav">
+<li><a href="/shozen_tour/reason/"><img src="/shozen_tour/images/common/g_nav_01_<?php if(preg_match("#^/shozen_tour/reason/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="ショーゼン観光バスの特徴" width="232" height="51" /></a></li>
+<li><a href="/shozen_tour/bustour/"><img src="/shozen_tour/images/common/g_nav_02_<?php if(preg_match("#^/shozen_tour/bustour/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="バス旅行・団体旅行" width="182" height="51" /></a></li>
+<li><a href="/shozen_tour/courtesybus/"><img src="/shozen_tour/images/common/g_nav_03_<?php if(preg_match("#^/shozen_tour/courtesybus/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="送迎バス" width="103" height="51" /></a></li>
+<li><a href="/shozen_tour/introductionbus/"><img src="/shozen_tour/images/common/g_nav_05_<?php if(preg_match("#^/shozen_tour/introductionbus/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="ひろ～いバス紹介" width="167" height="51" /></a></li>
+<li><a href="/shozen_tour/pilgrimage/"><img src="/shozen_tour/images/common/g_nav_04_<?php if(preg_match("#^/shozen_tour/pilgrimage/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="巡礼・巡拝ツアー" width="162" height="51" /></a></li>
+<li><a href="/shozen_tour/agency/"><img src="/shozen_tour/images/common/g_nav_07_<?php if(preg_match("#^/shozen_tour/agency/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="旅行業者様へ" width="134" height="51" /></a></li>
+</ul>

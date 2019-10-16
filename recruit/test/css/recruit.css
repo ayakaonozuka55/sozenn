@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+header
+------------------------------------------------------------------ */
+div#header{
+	background:url(../../../images/recruit/bg.jpg) 0 0 repeat-x;
+}
+
+div#header div#headerInner{
+	position:relative;
+	width:960px;
+	height:380px;
+	margin:0 auto;
+}
+
+div#header div.logo{
+	padding:30px 0;
+}
+
+div#header div.catch{
+}
+
+div#header div.logo a:hover{
+	opacity:0.75;
+}
+
+div#header div#headerInner ul{
+	position:absolute;
+	top:10px;
+	right:0;
+}
+
+div#header div#headerInner ul li{
+	display:inline-block;
+}
+
+div#header div#headerInner ul li a{
+	display:block;
+	text-decoration:none;
+	background:#319801;
+	color:#FFF;
+	padding:5px 20px;
+	border-radius:10px;
+}
+
+div#header div#headerInner ul li a:before{
+	content:"\f0a9";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#FFF;
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+div#header div#headerInner ul li a:hover{
+	opacity:0.75;
+}
+
+/* ------------------------------------------------------------------
+recruit
+------------------------------------------------------------------ */
+ul.rNav{
+	overflow:hidden;
+	text-align:center;
+	background:url(../../../shozen_tour/images/common/stripe_blue.gif);
+	padding:20px;
+}
+
+ul.rNav li{
+	display:inline-block;
+	margin:0 5px;
+}
+
+ul.rNav li a{
+	display:table-cell;
+	vertical-align:middle;
+	width:220px;
+	height:140px;
+	border:1px solid #CCC;
+	background:#FFF;
+	text-decoration:none;
+	font-size:24px;
+	border-radius:10px;
+	padding:0 20px;
+	box-sizing:border-box;
+}
+
+ul.rNav li a span{
+	font-size:14px;
+	display:block;
+	padding:10px 0 0 0;
+	margin:3px 0 0 0;
+}
+
+ul.rNav li.p a span{
+	border-top:4px solid #0095da;
+}
+
+ul.rNav li.t a span{
+	border-top:4px solid #339900;
+}
+
+ul.rNav li a i{
+	margin:10px 0 0 0;
+}
+
+ul.rNav li a:hover{
+	opacity:0.75;
+}
+
+/* ------------------------------------------------------------------
+recruit
+------------------------------------------------------------------ */
+div#recruit{
+	margin:0 0 60px 0;
+}
+
+div#recruit h1{
+	font-size:48px;
+	text-align:center;
+	margin:0 0 40px 0;
+	background:url(../../../shozen_tour/images/common/stripe_blue.gif);
+	padding:40px 0;
+}
+
+div#recruit div.section{
+	padding:60px 0 0 0;
+}
+
+div#recruit div.section h2{
+	height:37px;
+	line-height:30px;
+	font-size:24px;
+	padding:0 0 0 70px;
+	margin:0 0 20px 0;
+}
+
+div#recruit div.section.p h2{
+	background:url(../../../images/recruit/title_physical.png) no-repeat;
+}
+
+div#recruit div.section.t h2{
+	background:url(../../../images/recruit/title_tour.png) no-repeat;
+}
+
+div#recruit div.section div.pic{
+	overflow:hidden;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+div#recruit div.section div.pic span{
+	width:32%;
+	float:left;
+	border-radius:10px;
+	overflow:hidden;
+	margin:0 2% 0 0;
+}
+
+div#recruit div.section div.pic span:last-child{
+	margin:0;
+}
+
+div#recruit div.section table{
+	width:100%;
+	border-collapse: separate;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-spacing: 0;
+	line-height:1.6;
+	font-size:16px;
+	background:#FFFFFF;
+	margin:0 0 20px 0;
+}
+
+div#recruit div.section table th{
+	padding:15px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	text-align:left;
+	vertical-align:middle;
+	font-weight:bold;
+	width:120px;
+}
+
+div#recruit div.section.p table th{
+	color:#005566;
+	background:#D2E5F5;
+}
+
+div#recruit div.section.t table th{
+	color:#339900;
+	background:#f3fbed;
+}
+
+div#recruit div.section table td{
+	padding:15px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	text-align:left;
+	vertical-align:middle;
+}
+
+div#recruit div.section div.btn{
+	text-align:center;
+}
+
+div#recruit div.section div.btn .btleft{
+	float:left;
+	margin-left:140px;
+}
+div#recruit div.section div.btn .btright{
+	float:right;
+	margin-right:140px;
+}
+div#recruit div.section div.btn a{
+	display:block;
+	width:300px;
+	margin:0 auto;
+	padding:10px 0;
+	background:#333;
+	color:#FFF;
+	font-size:18px;
+	border-radius:10px;
+	text-decoration:none;
+}
+
+div#recruit div.section div.btn a:before{
+	content:"\f0a9";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#FFF;
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+div#recruit div.section div.btn a:hover{
+	opacity:0.75;
+}

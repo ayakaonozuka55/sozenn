@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+main_visual
+------------------------------------------------------------------ */
+div#visual{
+	/*1200-555 y:25*/
+	width:100%;
+	height:580px;
+	background:url(../images/top/main_visual.png) 50% 158px no-repeat;
+	/*padding:25px 0 0 0;*/
+}
+
+div#visual div.title{
+	padding:25px 0 0 0;
+}
+
+div#visual div.recruitCol{
+	position:relative;
+	width:980px;
+	height:580px;
+	margin:0 auto;
+}
+
+div#visual div.recruit{
+	position:absolute;
+	top:40px;
+	right:-40px;
+	width:200px;
+	height:200px;
+}
+
+div#visual div.recruit img{
+	width:100%;
+	height:auto;
+}
+
+div#visual div.recruit a:hover{
+	opacity:0.75;
+}
+
+/* ------------------------------------------------------------------
+main01
+------------------------------------------------------------------ */
+div#main01{
+	width:100%;
+	overflow:hidden;
+	/*margin:7px 0 0 0;*/
+}
+div#main01 div.col{
+	float:left;
+	margin:0 15px 0 0;
+}
+
+/* ------------------------------------------------------------------
+main02
+------------------------------------------------------------------ */
+div#main02{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 20px 0;
+	clear:both;
+}
+div#main02 div.col{
+	background:#EBF8E1;
+	line-height:1.4;
+	padding:10px;
+}
+div#main02 div.col h4{
+	background:#FFF;
+	text-align:center;
+	margin:0 0 10px 0;
+	padding:5px 0;
+}
+div#main02 div.col ul{
+	list-style:decimal;
+	margin:0 0 0 30px;
+	font-size:16px;
+	line-height:1.4;
+	padding:10px 10px 0 10px;
+}
+
+div#main02 div.col ul li{
+	margin:0 0 10px 0;
+}
+
+div#main02 div.col ul li strong{
+	display:block;
+}
+
+/* ------------------------------------------------------------------
+main03
+------------------------------------------------------------------ */
+div#main03{
+	width:100%;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+div#main03 div.col{
+	width:470px;
+	float:left;
+	line-height:1.4;
+	margin:0 20px 0 0;
+}
+div#main03 div.col h2{
+	color:#333333;
+	font-size:20px;
+	border-bottom:5px solid #BCE89A;
+	margin:0 0 20px 0;
+	padding:0 0 5px 0;
+}
+
+div#main03 div.col table.comProfile{
+	width:100%;
+	border-collapse: separate;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-spacing: 0;
+	line-height:1.4;
+	background:#FFFFFF;
+	margin:0 0 20px 0;
+}
+div#main03 div.col table.comProfile th {
+	padding:8px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	text-align:left;
+	vertical-align:middle;
+	color:#005566;/*-----color-----*/
+	font-weight:bold;
+	background:#D2E5F5;/*-----color-----*/
+	width:120px;
+}
+div#main03 div.col table.comProfile td {
+	padding:8px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	text-align:left;
+	vertical-align:middle;
+}
+div#main03 div.col table.comProfile td div#map{
+	width:570px;
+	height:400px;
+	border:1px solid #CCCCCC;
+	margin:5px 0 0 0;
+	font-size:12px;
+}
+

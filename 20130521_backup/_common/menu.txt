@@ -1,0 +1,14 @@
+	<img src="../_common/img/menu_up.gif" width="162" height="13">
+<ul>
+<li class="t"><a href="/index.html">HOME</a></li>
+<li class="t"><a href="/company/index.php">会社概要・アクセス</a></li>
+<li class="t"><a href="/kamotsu/index.php">貨物輸送</a></li>
+<li><a href="/estimate/index.php">引越しお見積りフォーム</a></li>
+<li class="t"><a href="/souko/index.php">物流倉庫</a></li>
+<li class="t"><a href="http://www.shozen.com/shozen_tour/reason/" target="_blank">観光バス</a></li>
+<li><a href="http://www.shozen.com/shozen_tour/inquiry/" target="_blank">貸切バスお見積りフォーム</a></li>
+<li><a href="http://www.shozen.com/shozen_tour/bustour/" target="_blank">団体貸切バス旅行プラン</a></li>
+<li><a href="http://www.shozen.com/shozen_tour/faq/" target="_blank">バスQ＆A</a></li>
+<li class="t"><a href="http://www.shozen.com/shozen_tour/pilgrimage/" target="_blank">ショーゼン・ツアー</a></li>
+<li class="t"><a href="/mail/index.php">お問合せ</a></li>
+</ul><img class="top" src="../_common/img/menu_dn.gif" width="162" height="13">

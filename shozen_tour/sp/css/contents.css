@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+title
+------------------------------------------------------------------ */
+h2.title{
+	border-bottom:3px solid #ffe43f;
+	font-size:17px;
+	line-height:1.4;
+	margin:0 0 10px 0;
+	padding:0 0 5px 45px;
+	background:url(../images/common/title_bus.png) 0 0 no-repeat;
+	background-size:40px auto;
+}
+
+@media screen and (max-width: 374px)
+{
+h2.title{
+	font-size:14px;
+}
+}
+
+h2.title span{
+	color:#e93939;
+}
+
+/* ------------------------------------------------------------------
+txt
+------------------------------------------------------------------ */
+p.lead{
+	margin:0 0 10px 0;
+}
+
+/* ------------------------------------------------------------------
+pageMv
+------------------------------------------------------------------ */
+div.pageMv{
+	margin:0 0 20px 0;
+}
+
+/* ------------------------------------------------------------------
+introductionbus
+------------------------------------------------------------------ */
+ul.busNav{
+	overflow:hidden;
+	margin:0 0 20px 0;
+}
+
+ul.busNav li{
+	width:32%;
+	float:left;
+	margin:0 2% 0 0;
+}
+
+ul.busNav li:last-child{
+	margin:0;
+}
+
+div.lineup{
+}
+
+div.lineup div.item{
+	position:relative;
+	margin:0 0 20px 0;
+	overflow:hidden;
+}
+
+div.lineup div.item h3{
+	position:relative;
+	background:#ffe64d;
+	padding:5px 8px;
+	border-radius:5px;
+	font-size:14px;
+	margin:0 0 10px 0;
+}
+
+div.lineup div.item h3 span{
+	position:absolute;
+	top:5px;
+	right:8px;
+	font-size:10px;
+}
+
+div.lineup div.item h3 span b{
+	font-size:16px;
+}
+
+div.lineup div.item div.pic{
+	width:48%;
+	float:left;
+}
+
+div.lineup div.item div.pic ul{
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div.lineup div.item div.pic ul li{
+	width:32%;
+	float:left;
+	margin:0 2% 0 0;
+}
+
+div.lineup div.item div.pic ul li:last-child{
+	margin:0;
+}
+
+div.lineup div.item div.txt{
+	width:48%;
+	float:right;
+}
+
+div.lineup div.item div.txt p{
+	font-size:11px;
+	line-height:1.4;
+}
+
+div.lineup div.item div.btn{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:48%;
+}
+
+
+/* ------------------------------------------------------------------
+btmNav
+------------------------------------------------------------------ */
+div.btmNav{
+}
+
+div.btmNav div.inner{
+	padding:10px;
+	background:#eaf5e5;
+}
+
+div.btmNav div.inner p{
+	font-size:11px;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+
+div.btmNav div.inner ul{
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+div.btmNav div.inner ul li{
+	width:49%;
+	float:left;
+}
+
+div.btmNav div.inner ul li:nth-child(2n){
+	float:right;
+}
+
+div.btmNav div.inner ul li span.tel-link{
+	display:block;
+}

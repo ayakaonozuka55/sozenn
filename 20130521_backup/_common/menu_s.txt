@@ -1,0 +1,5 @@
+<ul>
+			<li><a href="/company/index.php">‰ïŽÐŠT—v</a>
+			<li><a href="/company/privacy.php">ŒÂlî•ñ•ÛŒì•ûj</a>
+			<li><a href="/mail/index.php">‚¨–â‡‚¹</a>
+		</ul>

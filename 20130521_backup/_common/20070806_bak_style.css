@@ -1,0 +1,745 @@
+/* CSS Document */
+@charset "shift_jis";
+
+body {
+	font-family: "ＭＳＰゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	background:url(img/bk.jpg) #AACFF0;
+	background-position:top;
+	background-repeat:repeat-x;
+	margin:0 auto;
+	text-align: center;
+	color:#333333;
+}
+
+body.other{
+	font-family: "ＭＳＰゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	background:url(img/bk_other.jpg) #AACFF0;
+	background-position:top;
+	background-repeat:repeat-x;
+	margin:0 auto;
+	text-align: center;
+	color:#333333;
+}
+
+body#div{
+	margin:0 auto;
+	text-align:left;
+}
+
+body.other#div{
+	margin:0 auto;
+	text-align:left;
+}
+
+/* -----------------------------------
+　テキストの設定
+--------------------------------------*/
+
+p {font-size:90%;
+	margin:0px;
+	padding:0px;
+	line-height:130%;
+	text-align:left;
+}
+
+.txt_01{
+	color:#990000;
+}
+.normal {font-size:13px;}
+.small {
+	font-size:11px;
+	line-height:120%;
+}
+.large {							
+	font-size:110%;
+	letter-spacing:0.1em;
+}
+
+/* テキストリンクの設定 */
+
+a:link{
+	color:#4BA500;
+	text-decoration: underline;
+}
+a:visited{
+	color:#4BA500;
+	text-decoration: underline;
+}
+a:hover{
+	color:#66E300;
+	text-decoration: underline;
+}
+/* -----------------------------------
+　基本設定
+--------------------------------------*/
+* {
+ margin:0;
+ padding:0;
+}
+
+img {
+	border:0;
+	vertical-align: text-bottom;
+}
+
+td{
+	text-align:left;
+	font-size:90%;
+	line-height:120%;
+
+}
+
+.center{
+	text-align:center;
+}
+/* -----------------------------------
+　余白の設定
+--------------------------------------*/
+.t5{
+ margin-top:5px;
+}
+.t10{
+ margin-top:10px;
+}
+.l10{
+ margin-left:10px;
+}
+
+.l-5{
+	margin-left:-5px;
+}
+.l20{
+ margin-left:20px;
+}
+
+.r15{
+	margin-right:15px;
+}
+
+.l5{
+ margin-left:5px;
+}
+
+.b10{
+ margin-bottom:10px;
+}
+
+.b20{
+ margin-bottom:20px;
+}
+
+.b5{
+ margin-bottom:5px;
+}
+
+/* -----------------------------------
+　全体を囲む枠
+--------------------------------------*/
+#wrapper{
+	width:933px;
+	margin:0 auto;
+	text-align:center;
+	background-image:url(img/sky.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+#wrapper_other{
+	width:933px;
+	margin:0 auto;
+	text-align:center;
+	background-image:url(img/sky_other.jpg);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+#contents{																	/* ページの影部分 */
+	background-image:url(img/shadow.gif);
+	background-position:0 0;
+	background-repeat:repeat-y;
+	width:760px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+}
+/* Mozila系でfloatを使用したときに背景を続けさせるために使用 */
+div#contents:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+}
+/* Mozila系でfloatを使用したときに背景を続けさせるために使用 */
+
+#contents .left{
+	width:182px;
+	float:left;
+}
+
+#contents .right{
+	width:568px;
+	float:right;
+	text-align:left;
+}
+
+#contents_top{
+	width:735px;
+	padding-top:13px;
+	padding-left:14px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#contents_top .left{
+	width:350px;
+	float:left;
+}
+
+#contents_top .right{
+	width:370px;
+	float:right;
+	text-align:left;
+	font-size:13px;
+ line-height:130%;
+}
+/* -----------------------------------
+　ヘッダー
+--------------------------------------*/
+#header{
+	width:750px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:4px;
+}
+
+#header .right{
+	background-image:url(img/titleimg_01.jpg);
+	background-position:202px 24px;
+	background-repeat:no-repeat;
+	float:right;
+	width:645px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	height:73px;
+}
+
+#header .right_top{
+	float:right;
+	width:645px;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#header .h01{
+	width:645px;
+	float:left;
+}
+
+#header .description {
+	float:left;
+	width:410px;
+	font-size:11px;
+	margin:5px 0 5px 0;
+}
+
+#header .down {
+	width:750px;
+	margin:0 auto;
+	text-align:center;
+	clear:both;
+}
+
+#header .main {
+	width:750px;
+	margin-left:-2px;
+margin-top:-12px;
+	text-align:center;
+	clear:both;
+}
+
+/* ロゴ */
+h1{
+	float:left;
+	width:100px;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+h1 .top{
+	float:left;
+	width:100px;
+	margin-top:-20px;
+	padding:0;
+	text-align:left;
+}
+
+/* ロゴ2 */
+h2{
+	width:203px;
+	margin:0;
+	clear:both;
+	text-align:left;
+}
+/* -----------------------------------
+ メインイメージ
+--------------------------------------*/
+#mainimg{
+	width:758px;
+	background-image:url(img/bg_main.gif);
+	background-position:top;
+	background-repeat:repeat-y;
+	margin:0;
+	clear:both;
+}
+
+
+/* -----------------------------------
+　フッター
+--------------------------------------*/
+.gototop{
+	text-align:right;
+	font-size:11px;
+	margin:10px;
+	clear:both;
+	}	
+
+#footer{
+	width:750px;
+	clear:both;
+	font-size:11px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#footer_dn{
+	
+}
+
+#copy{
+	width:760px;
+	clear:both;
+	font-size:11px;
+	margin:0 auto;
+	height:25px;
+	padding-top:10px;
+	text-align:center;
+	font-size:11px;
+	background-image:url(img/footer.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+
+}
+/* -----------------------------------
+　form
+--------------------------------------*/
+
+.form {
+	margin-left:0px;
+}
+
+.must{
+	font-size:11px;
+	color:#990000;
+}
+
+.form td.title{
+	padding:5px 0 0 10px;
+	background-color:#82B127;
+	font-size:90%;
+	line-height:130%;
+	color:#fff;
+	height:20px;
+}
+
+.form td.l{
+	padding:5px 0 0 10px;
+	background-color:#CDE99A;
+	font-size:90%;
+	line-height:130%;
+}
+
+.form td.r{
+	padding:3px 3px 3px 10px;
+	background-color:#E9F5D3;
+	font-size:90%;
+	line-height:130%;
+}
+
+.form td.c{
+	padding:3px 3px 3px 10px;
+	background-color:#E9F5D3;
+	font-size:90%;
+	line-height:130%;
+}
+
+
+.form td.title2{
+	padding:5px 0 0 10px;
+	background-color:#367596;
+	font-size:90%;
+	line-height:130%;
+	color:#fff;
+	height:20px;
+}
+
+.form td.l2{
+	padding:5px 0 0 10px;
+	background-color:#B0D1E3;
+	font-size:90%;
+}
+
+.form td.r2{
+	padding:3px 3px 3px 10px;
+	background-color:#E1EDF4;
+	font-size:90%;
+}
+
+.textarea{
+	background-color:#ffffff;
+	border:1px solid #999999;
+}
+
+.btn{
+	background-color:#4BA500;
+	border:1px solid #4BA500;
+	color:#ffffff;
+}
+/* -----------------------------------
+　メインメニュー
+--------------------------------------*/
+#menu {
+	width:160px;
+	margin :8px 0 0 18px;
+	padding :0;
+}
+
+#menu img{
+	margin :0;
+	padding :0;
+}
+
+#menu img.top{
+	margin-top :-5px;
+	padding :0;
+}
+
+#menu ul {
+	width:162px;
+	margin: 0; 
+	padding :0; 
+	list-style-type : none;
+}
+
+#menu li{
+	margin: 0;
+	padding :4px 0 4px 24px;
+	background:#EEF6E6;
+	background-position:left;
+	background-repeat:no-repeat;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:1px solid #8BC559;
+}
+
+#menu li.t{
+	margin: 0;
+	padding :4px 0 4px 24px;
+	background:url(img/menu_arrow.gif) #D1E8BD;
+	background-position:left;
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:1px solid #8BC559;
+}
+
+#menu li a{
+	text-decoration:none;
+	color:#113300;
+}
+
+#menu li a:hover{
+	text-decoration:underline;
+	color:#1E5B00;
+}
+/* -----------------------------------
+　ヘッダーのトップのメニュー
+--------------------------------------*/
+#menu_s {
+	margin:0;
+	padding :0;
+	float:right;
+	width:200px;
+}
+
+#menu_s ul { 
+	margin: 0; 
+	padding :0; 
+	list-style-type : none; 
+}
+
+#menu_s li {
+	margin:0;
+	padding :0 8px 0 0; 
+	float: left;
+}
+
+#menu_s li a  { 
+	font-size:11px;
+	text-decoration: none;
+}
+
+/* -----------------------------------
+　コンテンツ
+--------------------------------------*/
+.block{
+	margin:13px 20px 0 5px;
+	padding:0;
+	clear:both;
+}
+
+h3{
+	border-bottom:1px solid #1E5B00;
+	margin:0 10px 30px 0;
+	padding-bottom:5px;
+}
+
+input.textarea{
+	border:1px solid #ccc;
+}
+
+input.texbtn{
+	border:1px solid #666666;
+	background-color:#CCCCCC;
+}
+
+h4{
+	border-left:4px solid #4EA700;
+	height:15px;
+	margin:20px 10px 15px 0;
+	padding:2px 0 2px 15px;
+	font-size:14px;
+	color:#56843F;
+	font-weight:bold;
+}
+
+#plan{
+	border:1px solid #cccccc;
+	padding:5px;
+	font-size:14px;
+	line-height:130%;
+	margin-bottom:10px;
+}
+
+/* Mozila系でfloatを使用したときに背景を続けさせるために使用 */
+div#plan:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+}
+/* Mozila系でfloatを使用したときに背景を続けさせるために使用 */
+
+#plan img{
+	margin-right:5px;
+	float:left;
+}
+#plan img.btn{
+	margin:5px 0 0 5px;
+	float:right;
+}
+
+.pulldown{
+	width:380px;
+	border:1px solid #cccccc;}
+
+#detail{
+ font-size:90%;
+ width:540px;
+}
+
+#detail .left{
+ font-size:90%;
+ float:left;
+ margin-left:5px;
+ width:300px;
+}
+
+#detail .photo{
+ float:right;
+ margin:0 0 5px 5px;
+}
+
+#detail .clear{
+ clear:both;
+}
+
+.requestnum{
+ clear:both;
+ padding:10px;
+ background-color:#FDFAE3;
+ margin:15px 0 15px 0;
+}
+
+/*貸切バスＴＯＰ*/
+h5{
+	font-size:16px;
+}
+.bus_text{
+	width:530px;
+	line-height:150px;
+	padding-top:10px;
+	font-size:14px;
+}
+/*貸切バス案内*/
+#kasikiri{
+}
+#kasikiri img{
+	margin-top:5px;
+}
+#kasikiri .left{
+	float:left;
+	width:265px;
+}
+#kasikiri .right_02{
+	float:left;
+}
+.table1{
+	border:0;
+	margin-top:4px;
+	margin-right:5px;
+}
+.td1{
+	background-color:#D4D4D4;
+	padding:6px;
+	font-weight: bold;
+	font-size:14px;
+}
+.td2{
+	background-color:#EBEBEB;
+	font-size:14px;
+	padding-bottom:8px;
+	padding-left:8px;
+	padding-top:5px;
+	padding-right:8px;
+}
+.td3{
+	background-color:#EBEBEB;
+	font-size:14px;
+}
+.td4{
+	background-color:#EBEBEB;
+	font-size:14px;
+	padding-bottom:8px;
+	padding-top:5px;
+	padding-right:8px;
+}
+/*貨物倉庫*/
+#kamotu{
+	padding:5px;
+}
+#kamotu .left{
+	width:280px;
+	float:left;
+	padding:30px 10px 10px 10px;;
+	margin:15 5 0 0px;
+	line-height:150%;
+}
+#kamotu .right_02{
+	float:left;
+	padding-top:30px;
+	padding-left:10px;
+	margin-top:10px;
+}
+#kamotu .clear{
+	clear:both;
+}
+#kamotu .right_02 img{
+	padding-bottom:20px;
+}
+#kamotu .text{
+	width:500px;
+	padding-top:15px;
+	padding-left:15px;
+}
+.hogo_text{
+	font-size:14px;
+	padding-right:5px;
+}
+#qa{
+	padding-left:10px;
+}
+#qa img{
+	padding-right:5px;
+}
+#qa .qa_left{
+	height:80px;
+	float:left;
+	padding-left:20px;
+}
+#qa .qa_right{
+	float:left;
+	width:450px;
+}
+/*バスQ&Aテーブル*/
+.qa_table{
+	border:0;
+	width:520px;
+	margin-top:20px;
+}
+.qa_td1{
+	padding-top:20px;
+}
+.qa_td2{
+	text-align:right;
+	vertical-align: top;
+	padding-top:10px;
+}
+.qa_td3{
+	padding-top:10px;
+}
+/*会社概要テーブル*/
+.company_table{
+	border:1px solid #4ea700;
+}
+.company_table2{
+	border:0;
+	margin-left:30px;
+}
+.company2_td1{
+	padding:20px;
+}
+.company2_td2{
+	text-align:center;
+}
+.company_td1{
+	border-bottom:1px solid #4ea700;
+	border-right:1px solid #4ea700;
+	background-color:#D1E8BD;
+	vertical-align: top;
+	padding:5px;
+}
+.company_td1_2{
+	border-right:1px solid #4ea700;
+	background-color:#D1E8BD;
+	vertical-align: top;
+	padding:5px;
+}
+.company_td2{
+	border-bottom:1px solid #4ea700;
+	padding:5px;
+}
+.company_td2_2{
+	padding:5px;
+}
+.tour_table{
+	padding-left:30px;
+}
+.tour_table2{
+	padding-right:20px;
+}

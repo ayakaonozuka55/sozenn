@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------
+intial set
+------------------------------------------------------------------ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	outline:0px;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+body{
+	color:#444444;
+	font-size:12px;
+	font-family:'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	text-align:center;
+	background:#f0eeeb url(../images/common/bg.jpg) 0 -90px repeat-x;
+	margin:20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+}
+
+img{
+	vertical-align:bottom;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+.clear{
+	clear: both;
+}
+
+strong{
+	font-weight:bold;
+}
+
+/* ------------------------------------------------------------------
+link
+------------------------------------------------------------------ */
+a{color:#c71585; text-decoration:underline;}
+a:link{color:#c71585; text-decoration:underline;}
+a:active{color:#444444; text-decoration:none;}
+a:hover{color:#444444; text-decoration:none;}
+
+/* ------------------------------------------------------------------
+clearfix
+------------------------------------------------------------------ */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* ------------------------------------------------------------------
+base
+------------------------------------------------------------------ */
+div#wrap{
+	width:360px;
+	margin:0 auto;
+	text-align:left;
+	background:#FFF;
+	padding:20px;
+}
+
+div#container{
+	width:100%;
+	overflow:hidden;
+}
+
+/* ------------------------------------------------------------------
+common
+------------------------------------------------------------------ */
+.m0{
+	margin:0px !important;
+}
+
+.mb05{
+	margin-bottom:5px !important;
+}
+
+.mb0{
+	margin-bottom:0px !important;
+}
+
+.mb10{
+	margin:0px 0px 10px 0px !important;
+}
+
+.mb20{
+	margin:0px 0px 20px 0px !important;
+}
+
+.mb40{
+	margin:0px 0px 40px 0px !important;
+}
+
+.fl{
+	float:left !important;
+}
+
+.fr{
+	float:right !important;
+}
+
+p.lead{
+	line-height:1.6;
+	margin:0 0 15px 0;
+}
+
+.red{
+	color:#c71585;
+}
+
+.brown{
+	color:#877a6e;
+}
+
+p.btn{
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+p.close{
+	background:#F3F3F3;
+	padding:10px;
+	text-align:center;
+}
+

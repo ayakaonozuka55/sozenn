@@ -1,0 +1,10 @@
+<ul id="gNav">
+<li><a href="/physical_distribution/reason/"><img src="/physical_distribution/images/common/g_nav_01_<?php if(preg_match("#^/physical_distribution/reason/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="選ばれる理由" width="123" height="51" /></a></li>
+<li><a href="/physical_distribution/about/"><img src="/physical_distribution/images/common/g_nav_02_<?php if(preg_match("#^/physical_distribution/about/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="物流・倉庫" width="123" height="51" /></a></li>
+<li><a href="/physical_distribution/driver/"><img src="/physical_distribution/images/common/g_nav_03_<?php if(preg_match("#^/physical_distribution/driver/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="ドライバー管理" width="122" height="51" /></a></li>
+<li><a href="/physical_distribution/system/"><img src="/physical_distribution/images/common/g_nav_04_<?php if(preg_match("#^/physical_distribution/system/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="システム管理" width="122" height="51" /></a></li>
+<li><a href="/physical_distribution/result/"><img src="/physical_distribution/images/common/g_nav_05_<?php if(preg_match("#^/physical_distribution/result/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="実績紹介" width="123" height="51" /></a></li>
+<li><a href="/physical_distribution/faq/"><img src="/physical_distribution/images/common/g_nav_06_<?php if(preg_match("#^/physical_distribution/faq/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="よくある質問" width="122" height="51" /></a></li>
+<li><a href="/physical_distribution/voice/"><img src="/physical_distribution/images/common/g_nav_07_<?php if(preg_match("#^/physical_distribution/voice/#",$_SERVER["REQUEST_URI"])): ?>on<?php else: ?>off<?php endif; ?>.gif" alt="お客様の声" width="122" height="51" /></a></li>
+<li><a href="http://www.shozen.com/#main03" target="_blank"><img src="/physical_distribution/images/common/g_nav_08_off.gif" alt="会社概要" width="123" height="51" /></a></li>
+</ul>
