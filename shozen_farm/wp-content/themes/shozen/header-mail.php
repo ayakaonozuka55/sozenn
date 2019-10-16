@@ -31,6 +31,15 @@
   <link rel="stylesheet" href="<?php echo home_url(); ?>/mail/mfp.statics/mailformpro.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo home_url(); ?>/mail/mfp.statics/example.css" type="text/css" />
 <!--/メールフォームプロ用CSS-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-75283835-1');
+	</script>
 
 </head>
 <body>
