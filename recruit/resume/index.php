@@ -13,13 +13,22 @@
 <script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript" src="/js/scrollsmoothly.js"></script>
 <script type="text/javascript" src="/js/lib/top.js"></script>
-<!--[if IE 6]>  
+<!--[if IE 6]>
 <script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
 <script type="text/javascript" src="/js/lib/ie6.js"></script>
 <![endif]-->
 <!--メールフォームプロ用CSS-->
 <link rel="stylesheet" href="mfp.statics/mailformpro.css" type="text/css">
 <!--/メールフォームプロ用CSS-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-75283835-1');
+</script>
 </head>
 
 <body>
@@ -151,7 +160,7 @@
 		<input type="hidden" name="mfp_separator_01" value="\n【メールアドレス】\n">
 		<dt class="mfp"><span class="must">必須</span>メールアドレス</dt>
 		<dd class="mfp"><input type="email" data-type="email" name="email" size="40" required="required"></dd>
-		
+
 		<dt class="mfp"><span class="must">必須</span>確認のためもう一度</dt>
 		<dd class="mfp"><input type="email" data-type="email" name="confirm_email" data-post-disable="1" size="40" required="required"></dd>
 		<input type="hidden" name="mfp_separator_02" value="\n【備考欄】\n">
@@ -175,9 +184,9 @@
 			※西暦表記でご記入下さい。（例：1980）<br>
 			<div>
 				<input type="hidden" name="職歴.1" data-join="西暦1+年+ +月1++月+ +履歴1+ +区分1" value="">
-				<input type="text" name="西暦1" size="5"> 年 
-				<input type="text" name="月1" size="3"> 月 
-				<input type="text" name="履歴1" size="45"> 
+				<input type="text" name="西暦1" size="5"> 年
+				<input type="text" name="月1" size="3"> 月
+				<input type="text" name="履歴1" size="45">
 				<select name="区分1">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -190,9 +199,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.2" data-join="西暦2+年+ +月2+月+ +履歴2+ +区分2" value="">
-				<input type="text" name="西暦2" size="5"> 年 
-				<input type="text" name="月2" size="3"> 月 
-				<input type="text" name="履歴2" size="45"> 
+				<input type="text" name="西暦2" size="5"> 年
+				<input type="text" name="月2" size="3"> 月
+				<input type="text" name="履歴2" size="45">
 				<select name="区分2">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -205,9 +214,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.3" data-join="西暦3+年+ +月3+月+ +履歴3+ +区分3" value="">
-				<input type="text" name="西暦3" size="5"> 年 
-				<input type="text" name="月3" size="3"> 月 
-				<input type="text" name="履歴3" size="45"> 
+				<input type="text" name="西暦3" size="5"> 年
+				<input type="text" name="月3" size="3"> 月
+				<input type="text" name="履歴3" size="45">
 				<select name="区分3">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -223,9 +232,9 @@
   <dd style="padding: 0px;border: none;">
 			<div>
 				<input type="hidden" name="職歴.4" data-join="西暦4+年+ +月4+月+ +履歴4+ +区分4" value="">
-				<input type="text" name="西暦4" size="5"> 年 
-				<input type="text" name="月4" size="3"> 月 
-				<input type="text" name="履歴4" size="45"> 
+				<input type="text" name="西暦4" size="5"> 年
+				<input type="text" name="月4" size="3"> 月
+				<input type="text" name="履歴4" size="45">
 				<select name="区分4">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -238,9 +247,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.5" data-join="西暦5+年+ +月5+月+ +履歴5+ +区分5" value="">
-				<input type="text" name="西暦5" size="5"> 年 
-				<input type="text" name="月5" size="3"> 月 
-				<input type="text" name="履歴5" size="45"> 
+				<input type="text" name="西暦5" size="5"> 年
+				<input type="text" name="月5" size="3"> 月
+				<input type="text" name="履歴5" size="45">
 				<select name="区分5">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -253,9 +262,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.6" data-join="西暦6+年+ +月6+月+ +履歴6+ +区分6" value="">
-				<input type="text" name="西暦6" size="5"> 年 
-				<input type="text" name="月6" size="3"> 月 
-				<input type="text" name="履歴6" size="45"> 
+				<input type="text" name="西暦6" size="5"> 年
+				<input type="text" name="月6" size="3"> 月
+				<input type="text" name="履歴6" size="45">
 				<select name="区分6">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -268,9 +277,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.7" data-join="西暦7+年+ +月7+月+ +履歴7+ +区分7" value="">
-				<input type="text" name="西暦7" size="5"> 年 
-				<input type="text" name="月7" size="3"> 月 
-				<input type="text" name="履歴7" size="45"> 
+				<input type="text" name="西暦7" size="5"> 年
+				<input type="text" name="月7" size="3"> 月
+				<input type="text" name="履歴7" size="45">
 				<select name="区分7">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -283,9 +292,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.8" data-join="西暦8+年+ +月8+月+ +履歴8+ +区分8" value="">
-				<input type="text" name="西暦8" size="5"> 年 
-				<input type="text" name="月8" size="3"> 月 
-				<input type="text" name="履歴8" size="45"> 
+				<input type="text" name="西暦8" size="5"> 年
+				<input type="text" name="月8" size="3"> 月
+				<input type="text" name="履歴8" size="45">
 				<select name="区分8">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -298,9 +307,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.9" data-join="西暦9+年+ +月9+月+ +履歴9+ +区分9" value="">
-				<input type="text" name="西暦9" size="5"> 年 
-				<input type="text" name="月9" size="3"> 月 
-				<input type="text" name="履歴9" size="45"> 
+				<input type="text" name="西暦9" size="5"> 年
+				<input type="text" name="月9" size="3"> 月
+				<input type="text" name="履歴9" size="45">
 				<select name="区分9">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -313,9 +322,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.10" data-join="西暦10+年+ +月10+月+ +履歴10+ +区分10" value="">
-				<input type="text" name="西暦10" size="5"> 年 
-				<input type="text" name="月10" size="3"> 月 
-				<input type="text" name="履歴10" size="45"> 
+				<input type="text" name="西暦10" size="5"> 年
+				<input type="text" name="月10" size="3"> 月
+				<input type="text" name="履歴10" size="45">
 				<select name="区分10">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -328,9 +337,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.11" data-join="西暦11+年+ +月11+月+ +履歴11+ +区分11" value="">
-				<input type="text" name="西暦11" size="5"> 年 
-				<input type="text" name="月11" size="3"> 月 
-				<input type="text" name="履歴11" size="45"> 
+				<input type="text" name="西暦11" size="5"> 年
+				<input type="text" name="月11" size="3"> 月
+				<input type="text" name="履歴11" size="45">
 				<select name="区分11">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -343,9 +352,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.12" data-join="西暦12+年+ +月12+月+ +履歴12+ +区分12" value="">
-				<input type="text" name="西暦12" size="5"> 年 
-				<input type="text" name="月12" size="3"> 月 
-				<input type="text" name="履歴12" size="45"> 
+				<input type="text" name="西暦12" size="5"> 年
+				<input type="text" name="月12" size="3"> 月
+				<input type="text" name="履歴12" size="45">
 				<select name="区分12">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -358,9 +367,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.13" data-join="西暦13+年+ +月13+月+ +履歴13+ +区分13" value="">
-				<input type="text" name="西暦13" size="5"> 年 
-				<input type="text" name="月13" size="3"> 月 
-				<input type="text" name="履歴13" size="45"> 
+				<input type="text" name="西暦13" size="5"> 年
+				<input type="text" name="月13" size="3"> 月
+				<input type="text" name="履歴13" size="45">
 				<select name="区分13">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -373,9 +382,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.14" data-join="西暦14+年+ +月14+月+ +履歴14+ +区分14" value="">
-				<input type="text" name="西暦14" size="5"> 年 
-				<input type="text" name="月14" size="3"> 月 
-				<input type="text" name="履歴14" size="45"> 
+				<input type="text" name="西暦14" size="5"> 年
+				<input type="text" name="月14" size="3"> 月
+				<input type="text" name="履歴14" size="45">
 				<select name="区分14">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -388,9 +397,9 @@
 			</div>
 			<div>
 				<input type="hidden" name="職歴.15" data-join="西暦15+年+ +月15+月+ +履歴15+ +区分15" value="">
-				<input type="text" name="西暦15" size="5"> 年 
-				<input type="text" name="月15" size="3"> 月 
-				<input type="text" name="履歴15" size="45"> 
+				<input type="text" name="西暦15" size="5"> 年
+				<input type="text" name="月15" size="3"> 月
+				<input type="text" name="履歴15" size="45">
 				<select name="区分15">
 					<option value=""></option>
 					<option value="入学">入学</option>
@@ -427,7 +436,7 @@
 
 		<dt class="mfp"><span class="must">必須</span>志望理由</dt>
 		<dd class="mfp"><textarea name="志望理由" rows="20" cols="80" required="required"></textarea></dd>
-		
+
 	</dl>
 	<div class="mfp_buttons">
 		<button type="submit">確認画面へ</button>&nbsp;&nbsp;<button type="reset">リセット</button>
@@ -449,7 +458,7 @@
 <?php include "../../inc/footer.inc";?>
 </div><!-- /footer -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
 $(function() {
   //最初は全てのパネルを非表示に
@@ -460,29 +469,6 @@ $(function() {
       $('+dd', this).slideToggle(500);
     })
 });
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52118521-1', 'shozen.com');
-  ga('send', 'pageview');
-
-</script>
-
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-75283835-1');
 </script>
 
 
