@@ -13,16 +13,24 @@
 <script type="text/javascript" src="../js/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript" src="../js/scrollsmoothly.js"></script>
 <script type="text/javascript" src="../js/lib/common.js"></script>
-<!--[if IE 6]>  
+<!--[if IE 6]>
 <script type="text/javascript" src="../js/DD_belatedPNG_0.0.8a-min.js"></script>
 <script type="text/javascript" src="../js/lib/ie6.js"></script>
 <![endif]-->
 <script type="text/javascript">
 
-  
+
 
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75283835-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-75283835-1');
+</script>
 </head>
 
 <body id="blue">
@@ -68,7 +76,7 @@
 
 <h3>個人情報の第三者提供</h3>
 <p>
-株式会社ショーゼンは、お客様のご希望による「旅行業務に必要な予約手配のため」に宿泊施設等に提供させていただきます。 ご記入者の同意なしに業務委託先以外の第三者に登録された個人情報を開示・提供することはありません。 ただし、法令により情報の開示を求められた場合、または裁判所、検察庁、警察等公的機関からの情報開示を求められた場合には、 ご記入者の同意なく個人情報の開示・提供を行うことがあります。 
+株式会社ショーゼンは、お客様のご希望による「旅行業務に必要な予約手配のため」に宿泊施設等に提供させていただきます。 ご記入者の同意なしに業務委託先以外の第三者に登録された個人情報を開示・提供することはありません。 ただし、法令により情報の開示を求められた場合、または裁判所、検察庁、警察等公的機関からの情報開示を求められた場合には、 ご記入者の同意なく個人情報の開示・提供を行うことがあります。
 </p>
 
 <h3>個人情報の開示・訂正・削除</h3>
@@ -111,18 +119,6 @@ FAX：0799-62-6827
 <div id="footer">
 <?php include "../inc/footer.inc";?>
 </div><!-- /footer -->
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52118525-1', 'shozen.com');
-  ga('send', 'pageview');
-
-</script>
 
 
 </body>
